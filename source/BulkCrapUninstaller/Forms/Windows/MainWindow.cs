@@ -62,6 +62,7 @@ namespace BulkCrapUninstaller.Forms
         private bool _anyUpdates;
         private bool _anyInvalid;
         private bool _anyTweaks;
+        private bool _isDarkMode;
 
         /// <summary>
         ///     Set to false in the list view clicked event. Prevents firing of extra CellEditStarting events.
@@ -195,6 +196,8 @@ namespace BulkCrapUninstaller.Forms
             _setMan.Selected.Subscribe((x, y) => splitContainerListAndMap.Panel2Collapsed = !y.NewValue, settings => settings.ShowTreeMap, this);
 
             uninstallerObjectListView.ContextMenuStrip = uninstallListContextMenuStrip;
+
+            this._isDarkMode = true; //TODO: Get From Settings / System
         }
 
         protected override void OnDpiChanged(DpiChangedEventArgs e)
@@ -1832,6 +1835,71 @@ namespace BulkCrapUninstaller.Forms
             finally
             {
                 LockApplication(false);
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this._isDarkMode = !this._isDarkMode;
+            this.OverrideColors();
+            this.Refresh();
+        }
+
+        private void OverrideColors()
+        {
+            this.BackColor = Color.FromArgb(12, 13, 14);
+            this.ForeColor = Color.White;
+
+            //Apply Color to all Elements
+            this._overrideControlColors(this);
+
+            //Elements that require special color settings
+            splashScreen1.ForeColor = this.ForeColor;
+            splashScreen1.BackColor = this.BackColor;
+
+            reloadUninstallersToolStripMenuItem.BackColor = this.BackColor;
+            reloadUninstallersToolStripMenuItem.ForeColor = this.ForeColor;
+
+            foreach(ToolStripMenuItem menuItem in menuStrip.Items)
+            {
+                menuItem.ForeColor = this.ForeColor;
+                menuItem.BackColor = this.BackColor;
+
+                foreach (ToolStripItem dropDownItem in menuItem.DropDownItems)
+                {
+                    dropDownItem.ForeColor = this.ForeColor;
+                    dropDownItem.BackColor = this.BackColor;
+                }
+            }
+
+            //this.Refresh();
+        }
+
+        public void _overrideControlColors(System.Windows.Forms.Control control)
+        {
+            foreach (System.Windows.Forms.Control item in control.GetAllChildren())
+            {
+                item.BackColor = this.BackColor;
+                item.ForeColor = this.ForeColor;
+                item.Refresh();
+
+                this._overrideControlColors(item);
+            }
+            foreach(System.Windows.Forms.Control item in control.Controls)
+            {
+                item.BackColor = this.BackColor;
+                item.ForeColor = this.ForeColor;
+                item.Refresh();
+
+                this._overrideControlColors(item);
+            }
+        }
+
+        private void MainWindow_Load(object sender, EventArgs e)
+        {
+            if (this._isDarkMode)
+            {
+                this.OverrideColors();
             }
         }
     }

@@ -19,6 +19,29 @@ namespace Klocman.Forms
         private OverlaySplashScreen _splash;
 
         public Image SplashScreenImage { get; set; }
+        public Color ForeColor
+        {
+            get
+            {
+                return _splash.Controls[0].ForeColor;
+            }
+            set
+            {
+                _splash.Controls[0].ForeColor = value;
+            }
+        }
+
+        public Color BackColor
+        {
+            get
+            {
+                return _splash.Controls[0].BackColor;
+            }
+            set
+            {
+                _splash.Controls[0].BackColor = value;
+            }
+        }
 
         [DefaultValue(true)]
         public bool AutomaticallyClose { get; set; } = true;

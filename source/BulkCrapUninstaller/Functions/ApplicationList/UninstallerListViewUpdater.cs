@@ -170,7 +170,11 @@ namespace BulkCrapUninstaller.Functions.ApplicationList
 
             var dialog = LoadingDialog.Show(_reference, Localisable.LoadingDialogTitlePopulatingList,
                 ListRefreshThread, new Point(-35, -35), ContentAlignment.BottomRight);
-            
+
+            //Inherit Color scheme
+            dialog.BackColor = _reference.BackColor;
+            dialog.ForeColor = _reference.ForeColor;
+
             dialog.FormClosed += OnRefreshFinished;
 
             void OnRefreshFinished(object sender, FormClosedEventArgs args)

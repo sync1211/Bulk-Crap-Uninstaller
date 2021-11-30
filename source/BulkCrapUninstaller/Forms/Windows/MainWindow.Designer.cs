@@ -229,6 +229,7 @@ namespace BulkCrapUninstaller.Forms
             this.globalHotkeys1 = new Klocman.Subsystems.GlobalHotkeys();
             this.splashScreen1 = new Klocman.Forms.SplashScreen();
             this.usageTracker = new BulkCrapUninstaller.Functions.Tracking.UsageTracker();
+            this.debugTestDarkmodeButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -1728,16 +1729,27 @@ namespace BulkCrapUninstaller.Forms
             // 
             this.splashScreen1.AutomaticallyClose = false;
             this.splashScreen1.ContainerControl = this;
-            this.splashScreen1.SplashScreenImage = global::BulkCrapUninstaller.Properties.Resources._bcu_logo;
+            this.splashScreen1.SplashScreenImage = ((System.Drawing.Image)(resources.GetObject("splashScreen1.SplashScreenImage")));
             // 
             // usageTracker
             // 
             this.usageTracker.ContainerControl = this;
             // 
+            // debugTestDarkmodeButton
+            // 
+            this.debugTestDarkmodeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(13)))), ((int)(((byte)(14)))));
+            this.debugTestDarkmodeButton.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.debugTestDarkmodeButton, "debugTestDarkmodeButton");
+            this.debugTestDarkmodeButton.Name = "debugTestDarkmodeButton";
+            this.debugTestDarkmodeButton.UseVisualStyleBackColor = false;
+            this.debugTestDarkmodeButton.Click += new System.EventHandler(this.button1_Click);
+            // 
             // MainWindow
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.debugTestDarkmodeButton);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.settingsSidebarPanel);
             this.Controls.Add(this.menuStrip);
@@ -1745,6 +1757,7 @@ namespace BulkCrapUninstaller.Forms
             this.Name = "MainWindow";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainWindow_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainWindow_FormClosed);
+            this.Load += new System.EventHandler(this.MainWindow_Load);
             this.Shown += new System.EventHandler(this.MainWindow_Shown);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
@@ -1924,7 +1937,6 @@ namespace BulkCrapUninstaller.Forms
         private ToolStripSeparator toolStripSeparator24;
         private ToolStripButton toolStripButton7;
         private ToolStripButton toolStripButton8;
-        private AdvancedFilters advancedFilters1;
         private ToolStripMenuItem advancedClipCopyToolStripMenuItem;
         private ToolStripMenuItem toolStripMenuItem9;
         private ToolStripMenuItem viewWindowsFeaturesToolStripMenuItem;
@@ -1981,6 +1993,8 @@ namespace BulkCrapUninstaller.Forms
         private ToolStripMenuItem slantcoToolStripMenuItem;
         private ToolStripMenuItem slantcoToolStripMenuItem1;
         private ToolStripMenuItem createRestorePointToolStripMenuItem;
+        private Button debugTestDarkmodeButton;
+        private AdvancedFilters advancedFilters1;
     }
 }
 
