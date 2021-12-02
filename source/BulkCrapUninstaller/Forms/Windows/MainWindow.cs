@@ -1860,6 +1860,9 @@ namespace BulkCrapUninstaller.Forms
             reloadUninstallersToolStripMenuItem.BackColor = this.BackColor;
             reloadUninstallersToolStripMenuItem.ForeColor = this.ForeColor;
 
+            label1.ForeColor = this.ForeColor;
+            label1.BackColor = Color.Transparent;
+
             foreach(ToolStripMenuItem menuItem in menuStrip.Items)
             {
                 menuItem.ForeColor = this.ForeColor;
