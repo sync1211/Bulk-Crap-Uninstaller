@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label5.Text" xml:space="preserve">
     <value>Anweisung VOR Ausführung der Deinstallation</value>
@@ -276,7 +276,11 @@ Verwenden Sie vollständige Verzeichnispfade, ein Pfad pro Zeile. Ungültige Pfa
     <value>Netzwerk</value>
   </data>
   <data name="checkBoxColorblind.Text" xml:space="preserve">
-    <value>Farbblinden Einstellung</value>
+    <value>Farbenblindmodus</value>
     <comment>Switches colors to be better for color-blind people</comment>
+  </data>
+  <data name="checkBoxDarkMode.Text" xml:space="preserve">
+    <value>Dunkles Design</value>
+    <comment>DarkMode</comment>
   </data>
 </root>

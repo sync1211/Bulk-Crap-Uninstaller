@@ -108,6 +108,7 @@ namespace BulkCrapUninstaller.Forms
             this.flowLayoutPanel10 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.usageTracker1 = new BulkCrapUninstaller.Functions.Tracking.UsageTracker();
+            this.checkBoxDarkMode = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -189,6 +190,7 @@ namespace BulkCrapUninstaller.Forms
             resources.ApplyResources(this.flowLayoutPanel3, "flowLayoutPanel3");
             this.flowLayoutPanel3.Controls.Add(this.checkBoxAutoLoad);
             this.flowLayoutPanel3.Controls.Add(this.checkBoxColorblind);
+            this.flowLayoutPanel3.Controls.Add(this.checkBoxDarkMode);
             this.flowLayoutPanel3.Controls.Add(this.checkBoxDpiaware);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
             // 
@@ -675,6 +677,12 @@ namespace BulkCrapUninstaller.Forms
             // 
             this.usageTracker1.ContainerControl = this;
             // 
+            // checkBoxDarkMode
+            // 
+            resources.ApplyResources(this.checkBoxDarkMode, "checkBoxDarkMode");
+            this.checkBoxDarkMode.Name = "checkBoxDarkMode";
+            this.checkBoxDarkMode.UseVisualStyleBackColor = true;
+            // 
             // SettingsWindow
             // 
             resources.ApplyResources(this, "$this");
@@ -826,5 +834,6 @@ namespace BulkCrapUninstaller.Forms
         private CheckBox checkBoxColorblind;
         private CheckBox checkBoxScoop;
         private CheckBox checkBoxDpiaware;
+        private CheckBox checkBoxDarkMode;
     }
 }

@@ -239,7 +239,7 @@
     <value>4, 3, 4, 3</value>
   </data>
   <data name="uninstallerObjectListView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>474, 445</value>
+    <value>474, 439</value>
   </data>
   <data name="uninstallerObjectListView.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -266,7 +266,7 @@
     <value>4, 3, 4, 3</value>
   </data>
   <data name="listViewPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>476, 447</value>
+    <value>476, 441</value>
   </data>
   <data name="listViewPanel.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -305,7 +305,7 @@
     <value>5, 3, 5, 3</value>
   </data>
   <data name="treeMap1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>476, 96</value>
+    <value>476, 102</value>
   </data>
   <data name="treeMap1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -338,7 +338,7 @@
     <value>476, 548</value>
   </data>
   <data name="splitContainerListAndMap.SplitterDistance" type="System.Int32, mscorlib">
-    <value>447</value>
+    <value>441</value>
   </data>
   <data name="splitContainerListAndMap.SplitterWidth" type="System.Int32, mscorlib">
     <value>5</value>
@@ -694,7 +694,7 @@
     <value>Top</value>
   </data>
   <data name="propertiesSidebar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 196</value>
+    <value>7, 213</value>
   </data>
   <data name="propertiesSidebar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>5, 3, 5, 3</value>
@@ -775,7 +775,7 @@
     <value>NoControl</value>
   </data>
   <data name="buttonAdvFiltering.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 158</value>
+    <value>9, 175</value>
   </data>
   <data name="buttonAdvFiltering.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 3, 4, 3</value>
@@ -820,7 +820,7 @@
     <value>117, 0</value>
   </data>
   <data name="filterEditor1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 137</value>
+    <value>195, 154</value>
   </data>
   <data name="filterEditor1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -850,7 +850,7 @@
     <value>9, 5, 9, 9</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 194</value>
+    <value>213, 211</value>
   </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>

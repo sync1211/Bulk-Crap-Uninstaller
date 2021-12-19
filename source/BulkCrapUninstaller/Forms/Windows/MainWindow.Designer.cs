@@ -662,7 +662,6 @@ namespace BulkCrapUninstaller.Forms
             // 
             resources.ApplyResources(this.filterEditor1, "filterEditor1");
             this.filterEditor1.Name = "filterEditor1";
-            this.filterEditor1.ShowAsSearch = true;
             this.filterEditor1.FocusSearchTarget += new System.EventHandler(this.filterEditor1_FocusSearchTarget);
             // 
             // uninstallListContextMenuStrip
@@ -1742,7 +1741,6 @@ namespace BulkCrapUninstaller.Forms
             resources.ApplyResources(this.debugTestDarkmodeButton, "debugTestDarkmodeButton");
             this.debugTestDarkmodeButton.Name = "debugTestDarkmodeButton";
             this.debugTestDarkmodeButton.UseVisualStyleBackColor = false;
-            this.debugTestDarkmodeButton.Click += new System.EventHandler(this.button1_Click);
             // 
             // MainWindow
             // 

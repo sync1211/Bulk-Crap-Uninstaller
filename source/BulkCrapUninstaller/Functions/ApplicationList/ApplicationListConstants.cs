@@ -11,8 +11,18 @@ namespace BulkCrapUninstaller.Functions.ApplicationList
 {
     internal static class ApplicationListConstants
     {
-        public static ApplicationListColors Colors => Settings.Default.MiscColorblind ? ApplicationListColors.ColorBlind : ApplicationListColors.Normal;
-
+        public static ApplicationListColors Colors
+        {
+            get
+            {
+                if (Settings.Default.UseDarkMode)
+                {
+                    return Settings.Default.MiscColorblind ? ApplicationListColors.ColorBlindDark : ApplicationListColors.NormalDark;
+                }
+                return Settings.Default.MiscColorblind ? ApplicationListColors.ColorBlindLight : ApplicationListColors.NormalLight;
+            }
+        }
+                
         public static Color GetApplicationBackColor(ApplicationUninstallerEntry entry)
         {
             if (Settings.Default.AdvancedHighlightSpecial)

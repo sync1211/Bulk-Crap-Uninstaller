@@ -196,8 +196,6 @@ namespace BulkCrapUninstaller.Forms
             _setMan.Selected.Subscribe((x, y) => splitContainerListAndMap.Panel2Collapsed = !y.NewValue, settings => settings.ShowTreeMap, this);
 
             uninstallerObjectListView.ContextMenuStrip = uninstallListContextMenuStrip;
-
-            this._isDarkMode = true; //TODO: Get From Settings / System
         }
 
         protected override void OnDpiChanged(DpiChangedEventArgs e)
@@ -1838,13 +1836,6 @@ namespace BulkCrapUninstaller.Forms
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this._isDarkMode = !this._isDarkMode;
-            this.OverrideColors();
-            this.Refresh();
-        }
-
         private void OverrideColors()
         {
             this.BackColor = Color.FromArgb(12, 13, 14);
@@ -1900,7 +1891,7 @@ namespace BulkCrapUninstaller.Forms
 
         private void MainWindow_Load(object sender, EventArgs e)
         {
-            if (this._isDarkMode)
+            if (Settings.Default.UseDarkMode)
             {
                 this.OverrideColors();
             }
