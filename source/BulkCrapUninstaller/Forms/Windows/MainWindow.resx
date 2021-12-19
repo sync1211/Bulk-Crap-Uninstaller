@@ -239,7 +239,7 @@
     <value>4, 3, 4, 3</value>
   </data>
   <data name="uninstallerObjectListView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>474, 439</value>
+    <value>474, 416</value>
   </data>
   <data name="uninstallerObjectListView.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -266,7 +266,7 @@
     <value>4, 3, 4, 3</value>
   </data>
   <data name="listViewPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>476, 441</value>
+    <value>476, 418</value>
   </data>
   <data name="listViewPanel.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -305,7 +305,7 @@
     <value>5, 3, 5, 3</value>
   </data>
   <data name="treeMap1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>476, 102</value>
+    <value>476, 125</value>
   </data>
   <data name="treeMap1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -338,7 +338,7 @@
     <value>476, 548</value>
   </data>
   <data name="splitContainerListAndMap.SplitterDistance" type="System.Int32, mscorlib">
-    <value>441</value>
+    <value>418</value>
   </data>
   <data name="splitContainerListAndMap.SplitterWidth" type="System.Int32, mscorlib">
     <value>5</value>
@@ -679,7 +679,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="settingsSidebarPanel.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
@@ -898,7 +898,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;settingsSidebarPanel.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <metadata name="uninstallListContextMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>231, 17</value>
@@ -2076,7 +2076,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;menuStrip.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <metadata name="createBackupFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>676, 17</value>
@@ -2098,30 +2098,6 @@
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1031, 624</value>
-  </data>
-  <data name="debugTestDarkmodeButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>840, 1</value>
-  </data>
-  <data name="debugTestDarkmodeButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 23</value>
-  </data>
-  <data name="debugTestDarkmodeButton.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="debugTestDarkmodeButton.Text" xml:space="preserve">
-    <value>TestDarkmode</value>
-  </data>
-  <data name="&gt;&gt;debugTestDarkmodeButton.Name" xml:space="preserve">
-    <value>debugTestDarkmodeButton</value>
-  </data>
-  <data name="&gt;&gt;debugTestDarkmodeButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;debugTestDarkmodeButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;debugTestDarkmodeButton.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 3, 4, 3</value>
@@ -2253,7 +2229,7 @@
     <value>toolStripSeparator22</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator22.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;toolStripButtonSelAll.Name" xml:space="preserve">
     <value>toolStripButtonSelAll</value>
@@ -2277,7 +2253,7 @@
     <value>toolStripSeparator23</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator23.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;toolStripButtonNuke.Name" xml:space="preserve">
     <value>toolStripButtonNuke</value>
@@ -2289,7 +2265,7 @@
     <value>toolStripSeparator21</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator21.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;toolStripButtonUninstall.Name" xml:space="preserve">
     <value>toolStripButtonUninstall</value>
@@ -2313,7 +2289,7 @@
     <value>toolStripSeparator4</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;toolStripButtonProperties.Name" xml:space="preserve">
     <value>toolStripButtonProperties</value>
@@ -2325,7 +2301,7 @@
     <value>toolStripSeparator24</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator24.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;toolStripButton7.Name" xml:space="preserve">
     <value>toolStripButton7</value>
@@ -2403,7 +2379,7 @@
     <value>toolStripSeparator3</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;excludeToolStripMenuItem.Name" xml:space="preserve">
     <value>excludeToolStripMenuItem</value>
@@ -2421,7 +2397,7 @@
     <value>toolStripSeparatorFiltering</value>
   </data>
   <data name="&gt;&gt;toolStripSeparatorFiltering.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;runToolStripMenuItem.Name" xml:space="preserve">
     <value>runToolStripMenuItem</value>
@@ -2433,7 +2409,7 @@
     <value>toolStripSeparator8</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;copyToClipboardContextMenuStripItem.Name" xml:space="preserve">
     <value>copyToClipboardContextMenuStripItem</value>
@@ -2451,7 +2427,7 @@
     <value>toolStripSeparator9</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;fullInformationCopyContextMenuStripItem.Name" xml:space="preserve">
     <value>fullInformationCopyContextMenuStripItem</value>
@@ -2499,7 +2475,7 @@
     <value>toolStripSeparator6</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;openInExplorerContextMenuStripItem.Name" xml:space="preserve">
     <value>openInExplorerContextMenuStripItem</value>
@@ -2559,7 +2535,7 @@
     <value>toolStripSeparator26</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator26.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;fossHubcomToolStripMenuItem.Name" xml:space="preserve">
     <value>fossHubcomToolStripMenuItem</value>
@@ -2595,7 +2571,7 @@
     <value>toolStripSeparator7</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;propertiesContextMenuStripItem.Name" xml:space="preserve">
     <value>propertiesContextMenuStripItem</value>
@@ -2625,7 +2601,7 @@
     <value>toolStripSeparator1</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;loadUninstallerListToolStripMenuItem.Name" xml:space="preserve">
     <value>loadUninstallerListToolStripMenuItem</value>
@@ -2637,7 +2613,7 @@
     <value>toolStripSeparator30</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator30.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;exportSelectedToolStripMenuItem.Name" xml:space="preserve">
     <value>exportSelectedToolStripMenuItem</value>
@@ -2661,7 +2637,7 @@
     <value>toolStripSeparator10</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;exitToolStripMenuItem.Name" xml:space="preserve">
     <value>exitToolStripMenuItem</value>
@@ -2709,7 +2685,7 @@
     <value>toolStripSeparator12</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;useSystemThemeToolStripMenuItem.Name" xml:space="preserve">
     <value>useSystemThemeToolStripMenuItem</value>
@@ -2751,7 +2727,7 @@
     <value>toolStripSeparator20</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;automaticallyStartedToolStripMenuItem.Name" xml:space="preserve">
     <value>automaticallyStartedToolStripMenuItem</value>
@@ -2769,7 +2745,7 @@
     <value>toolStripSeparator31</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator31.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;viewTweaksToolStripMenuItem.Name" xml:space="preserve">
     <value>viewTweaksToolStripMenuItem</value>
@@ -2805,7 +2781,7 @@
     <value>toolStripSeparator28</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator28.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;searchToolStripMenuItem.Name" xml:space="preserve">
     <value>searchToolStripMenuItem</value>
@@ -2841,7 +2817,7 @@
     <value>toolStripSeparator2</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;toolStripMenuItem8.Name" xml:space="preserve">
     <value>toolStripMenuItem8</value>
@@ -2859,7 +2835,7 @@
     <value>toolStripSeparator11</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;copyFullInformationToolStripMenuItem.Name" xml:space="preserve">
     <value>copyFullInformationToolStripMenuItem</value>
@@ -2949,7 +2925,7 @@
     <value>toolStripSeparator27</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator27.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;toolStripMenuItem17.Name" xml:space="preserve">
     <value>toolStripMenuItem17</value>
@@ -2985,7 +2961,7 @@
     <value>toolStripSeparator15</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;propertiesToolStripMenuItem.Name" xml:space="preserve">
     <value>propertiesToolStripMenuItem</value>
@@ -3033,7 +3009,7 @@
     <value>toolStripSeparator14</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;renameToolStripMenuItem.Name" xml:space="preserve">
     <value>renameToolStripMenuItem</value>
@@ -3057,7 +3033,7 @@
     <value>toolStripSeparator5</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;createBackupToolStripMenuItem.Name" xml:space="preserve">
     <value>createBackupToolStripMenuItem</value>
@@ -3075,7 +3051,7 @@
     <value>toolStripSeparator32</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator32.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;takeOwnershipToolStripMenuItem.Name" xml:space="preserve">
     <value>takeOwnershipToolStripMenuItem</value>
@@ -3099,7 +3075,7 @@
     <value>toolStripSeparator25</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator25.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;cleanUpProgramFilesToolStripMenuItem.Name" xml:space="preserve">
     <value>cleanUpProgramFilesToolStripMenuItem</value>
@@ -3123,7 +3099,7 @@
     <value>toolStripSeparator13</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;troubleshootUninstallProblemsToolStripMenuItem.Name" xml:space="preserve">
     <value>troubleshootUninstallProblemsToolStripMenuItem</value>
@@ -3153,7 +3129,7 @@
     <value>toolStripSeparator29</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator29.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;openProgramsAndFeaturesToolStripMenuItem.Name" xml:space="preserve">
     <value>openProgramsAndFeaturesToolStripMenuItem</value>
@@ -3171,7 +3147,7 @@
     <value>toolStripSeparator19</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator19.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;settingsToolStripMenuItem.Name" xml:space="preserve">
     <value>settingsToolStripMenuItem</value>
@@ -3201,7 +3177,7 @@
     <value>toolStripSeparator16</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;checkForUpdatesToolStripMenuItem.Name" xml:space="preserve">
     <value>checkForUpdatesToolStripMenuItem</value>
@@ -3219,7 +3195,7 @@
     <value>toolStripSeparator18</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator18.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;resetSettingsToolStripMenuItem.Name" xml:space="preserve">
     <value>resetSettingsToolStripMenuItem</value>
@@ -3237,7 +3213,7 @@
     <value>toolStripSeparator17</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
     <value>aboutToolStripMenuItem</value>

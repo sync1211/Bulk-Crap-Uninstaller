@@ -11,12 +11,12 @@ namespace BulkCrapUninstaller.Functions.ApplicationList
     {   
         //Light
         public static ApplicationListColors NormalLight = new ApplicationListColors(
-            Color.FromArgb(unchecked((int) 0xffccffcc)), //verified
-            Color.FromArgb(unchecked((int) 0xffbbddff)), //unverified
-            Color.FromArgb(unchecked((int) 0xffE0E0E0)), //invalid
-            Color.FromArgb(unchecked((int) 0xffffdbcd)), //unregistered
-            Color.FromArgb(unchecked((int) 0xffe7cfff)), //windowsFeature
-            Color.FromArgb(unchecked((int) 0xffa3ffff))  //windowsApp
+            Color.FromArgb(unchecked((int) 0xffccffcc)),
+            Color.FromArgb(unchecked((int) 0xffbbddff)),
+            Color.FromArgb(unchecked((int) 0xffE0E0E0)),
+            Color.FromArgb(unchecked((int) 0xffffdbcd)),
+            Color.FromArgb(unchecked((int) 0xffe7cfff)),
+            Color.FromArgb(unchecked((int) 0xffa3ffff)) 
         );
 
         public static ApplicationListColors ColorBlindLight = new ApplicationListColors(

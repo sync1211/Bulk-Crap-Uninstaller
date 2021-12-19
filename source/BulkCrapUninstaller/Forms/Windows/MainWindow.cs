@@ -62,14 +62,12 @@ namespace BulkCrapUninstaller.Forms
         private bool _anyUpdates;
         private bool _anyInvalid;
         private bool _anyTweaks;
-        private bool _isDarkMode;
 
         /// <summary>
         ///     Set to false in the list view clicked event. Prevents firing of extra CellEditStarting events.
         ///     Used to fix buggy ObjectListView.
         /// </summary>
         private bool _ignoreCellEdit;
-
         private readonly UninstallerListPostProcesser _uninstallerListPostProcesser;
 
         public MainWindow()
@@ -1854,15 +1852,18 @@ namespace BulkCrapUninstaller.Forms
             label1.ForeColor = this.ForeColor;
             label1.BackColor = Color.Transparent;
 
-            foreach(ToolStripMenuItem menuItem in menuStrip.Items)
+            foreach (ToolStripItem toolStripMenu in menuStrip.Items)
             {
-                menuItem.ForeColor = this.ForeColor;
-                menuItem.BackColor = this.BackColor;
+                toolStripMenu.ForeColor = this.ForeColor;
+                toolStripMenu.BackColor = this.BackColor;
 
-                foreach (ToolStripItem dropDownItem in menuItem.DropDownItems)
+                if (toolStripMenu is ToolStripMenuItem menuItem)
                 {
-                    dropDownItem.ForeColor = this.ForeColor;
-                    dropDownItem.BackColor = this.BackColor;
+                    foreach (ToolStripItem dropDownItem in menuItem.DropDownItems)
+                    { 
+                        dropDownItem.ForeColor = this.ForeColor;
+                        dropDownItem.BackColor = this.BackColor;
+                    }
                 }
             }
 
@@ -1871,21 +1872,29 @@ namespace BulkCrapUninstaller.Forms
 
         public void _overrideControlColors(System.Windows.Forms.Control control)
         {
-            foreach (System.Windows.Forms.Control item in control.GetAllChildren())
-            {
-                item.BackColor = this.BackColor;
-                item.ForeColor = this.ForeColor;
-                item.Refresh();
+            //foreach (Control item in control.GetAllChildren())
+            //{
+            //    item.BackColor = this.BackColor;
+            //    item.ForeColor = this.ForeColor;
+            //    item.Refresh();
+            //
+            //    this._overrideControlColors(item);
+            //}
 
-                this._overrideControlColors(item);
-            }
-            foreach(System.Windows.Forms.Control item in control.Controls)
-            {
-                item.BackColor = this.BackColor;
-                item.ForeColor = this.ForeColor;
-                item.Refresh();
 
-                this._overrideControlColors(item);
+            foreach(object item in control.Controls)
+            {
+                if (item is Control controlItem)
+                {
+                    controlItem.BackColor = this.BackColor;
+                    controlItem.ForeColor = this.ForeColor;
+                    this._overrideControlColors(controlItem);
+                }
+                if (item is Label label)
+                {
+                    label.ForeColor = this.ForeColor;
+                    label.BackColor = Color.Transparent;
+                }        
             }
         }
 
@@ -1894,6 +1903,32 @@ namespace BulkCrapUninstaller.Forms
             if (Settings.Default.UseDarkMode)
             {
                 this.OverrideColors();
+            }
+
+        }
+
+        //ToolStripSeparator without hard coded colors
+        //Because ToolStripSeparator does use BackColor or ForeColor, even though everything else does...
+        //TODO: This is probably a really stupid of doing this...
+        public class ColorableToolStripSeparator : ToolStripSeparator
+        {
+            public ColorableToolStripSeparator()
+            {
+                Paint += ColorableToolStripSeparator_Paint;
+            }
+
+            private void ColorableToolStripSeparator_Paint(object sender, PaintEventArgs e)
+            {
+                // Get the separator's width and height.
+                ToolStripSeparator toolStripSeparator = (ToolStripSeparator)sender;
+                int width = toolStripSeparator.Width;
+                int height = toolStripSeparator.Height;
+
+
+                // Fill the background.
+                e.Graphics.FillRectangle(new SolidBrush(this.BackColor), 0, 0, width, height);
+                // Draw the line.
+                e.Graphics.DrawLine(new Pen(this.ForeColor), 4, height / 2, width - 4, height / 2);
             }
         }
     }
