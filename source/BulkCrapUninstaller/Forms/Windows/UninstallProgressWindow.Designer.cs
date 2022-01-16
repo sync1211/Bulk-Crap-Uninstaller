@@ -373,6 +373,7 @@ namespace BulkCrapUninstaller.Forms
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "UninstallProgressWindow";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.UninstallProgressWindow_FormClosing);
+            this.Load += new System.EventHandler(this.UninstallProgressWindow_Load);
             ((System.ComponentModel.ISupportInitialize)(this.objectListView1)).EndInit();
             this.contextMenuStrip1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);

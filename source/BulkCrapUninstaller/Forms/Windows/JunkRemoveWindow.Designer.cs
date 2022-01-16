@@ -44,9 +44,9 @@ namespace BulkCrapUninstaller.Forms
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.objectListViewMain = new BrightIdeasSoftware.ObjectListView();
-            this.olvColumnPath = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
-            this.olvColumnSafety = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
-            this.olvColumnUninstallerName = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
+            this.olvColumnPath = new BrightIdeasSoftware.OLVColumn();
+            this.olvColumnSafety = new BrightIdeasSoftware.OLVColumn();
+            this.olvColumnUninstallerName = new BrightIdeasSoftware.OLVColumn();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.headerIntro = new System.Windows.Forms.Label();
             this.headerConfTitle = new System.Windows.Forms.Label();
@@ -242,6 +242,7 @@ namespace BulkCrapUninstaller.Forms
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);
             this.Name = "JunkRemoveWindow";
+            this.Load += new System.EventHandler(this.JunkRemoveWindow_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);

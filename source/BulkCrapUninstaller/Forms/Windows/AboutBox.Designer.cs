@@ -46,6 +46,7 @@ namespace BulkCrapUninstaller.Forms
             this.panel5 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.linkLabel6 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel9 = new System.Windows.Forms.LinkLabel();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel5 = new System.Windows.Forms.LinkLabel();
@@ -61,7 +62,6 @@ namespace BulkCrapUninstaller.Forms
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.usageTracker1 = new BulkCrapUninstaller.Functions.Tracking.UsageTracker();
-            this.linkLabel9 = new System.Windows.Forms.LinkLabel();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -164,6 +164,13 @@ namespace BulkCrapUninstaller.Forms
             this.linkLabel6.Name = "linkLabel6";
             this.linkLabel6.TabStop = true;
             this.linkLabel6.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel6_LinkClicked);
+            // 
+            // linkLabel9
+            // 
+            resources.ApplyResources(this.linkLabel9, "linkLabel9");
+            this.linkLabel9.Name = "linkLabel9";
+            this.linkLabel9.TabStop = true;
+            this.linkLabel9.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel9_LinkClicked);
             // 
             // linkLabel3
             // 
@@ -270,13 +277,6 @@ namespace BulkCrapUninstaller.Forms
             // 
             this.usageTracker1.ContainerControl = this;
             // 
-            // linkLabel9
-            // 
-            resources.ApplyResources(this.linkLabel9, "linkLabel9");
-            this.linkLabel9.Name = "linkLabel9";
-            this.linkLabel9.TabStop = true;
-            this.linkLabel9.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel9_LinkClicked);
-            // 
             // AboutBox
             // 
             this.AcceptButton = this.button1;
@@ -291,6 +291,7 @@ namespace BulkCrapUninstaller.Forms
             this.Name = "AboutBox";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.Load += new System.EventHandler(this.AboutBox_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.panel1.ResumeLayout(false);

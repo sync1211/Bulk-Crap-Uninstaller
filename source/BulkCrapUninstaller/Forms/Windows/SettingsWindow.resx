@@ -334,38 +334,11 @@
   <data name="&gt;&gt;checkBoxColorblind.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="checkBoxDarkMode.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBoxDarkMode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 53</value>
-  </data>
-  <data name="checkBoxDarkMode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 19</value>
-  </data>
-  <data name="checkBoxDarkMode.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="checkBoxDarkMode.Text" xml:space="preserve">
-    <value>Dark Mode</value>
-  </data>
-  <data name="&gt;&gt;checkBoxDarkMode.Name" xml:space="preserve">
-    <value>checkBoxDarkMode</value>
-  </data>
-  <data name="&gt;&gt;checkBoxDarkMode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBoxDarkMode.Parent" xml:space="preserve">
-    <value>flowLayoutPanel3</value>
-  </data>
-  <data name="&gt;&gt;checkBoxDarkMode.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="checkBoxDpiaware.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="checkBoxDpiaware.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 78</value>
+    <value>5, 53</value>
   </data>
   <data name="checkBoxDpiaware.Size" type="System.Drawing.Size, System.Drawing">
     <value>279, 19</value>
@@ -386,7 +359,7 @@
     <value>flowLayoutPanel3</value>
   </data>
   <data name="&gt;&gt;checkBoxDpiaware.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="flowLayoutPanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -404,7 +377,7 @@
     <value>2, 0, 2, 2</value>
   </data>
   <data name="flowLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>422, 102</value>
+    <value>422, 77</value>
   </data>
   <data name="flowLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -434,7 +407,7 @@
     <value>4, 3, 4, 3</value>
   </data>
   <data name="groupBoxMisc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>430, 124</value>
+    <value>430, 99</value>
   </data>
   <data name="groupBoxMisc.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -2522,13 +2495,13 @@ Use full directory paths, one path per line. Invalid paths and non-existing dire
     <value>Fill</value>
   </data>
   <data name="cacheSettings1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 224</value>
+    <value>4, 199</value>
   </data>
   <data name="cacheSettings1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>5, 3, 5, 3</value>
   </data>
   <data name="cacheSettings1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>430, 186</value>
+    <value>430, 211</value>
   </data>
   <data name="cacheSettings1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>

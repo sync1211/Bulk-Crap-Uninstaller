@@ -4,6 +4,7 @@
 */
 
 using System;
+using System.Drawing;
 using System.Globalization;
 using System.Linq;
 using System.Windows.Forms;
@@ -93,6 +94,14 @@ namespace BulkCrapUninstaller.Forms
             _settings.SendUpdates(this);
 
             _restartNeeded = false;
+
+            tabControl.DrawMode = TabDrawMode.OwnerDrawFixed;
+            tabControl.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.TabControl_DrawItem);
+
+            if (Settings.Default.UseDarkMode)
+            {
+                this.OverrideColors();
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -219,6 +228,76 @@ namespace BulkCrapUninstaller.Forms
                     break;
                 default:
                     throw new ArgumentOutOfRangeException(nameof(args), args.NewValue, "Unknown value");
+            }
+        }
+
+        private void OverrideColors()
+        {
+            this.BackColor = Color.FromArgb(12, 13, 14);
+            this.ForeColor = Color.White;
+
+            //Apply Color to all Elements
+            this._overrideControlColors(this);
+
+            //this.Refresh();
+        }
+
+        public void _overrideControlColors(System.Windows.Forms.Control control)
+        {
+            //foreach (Control item in control.GetAllChildren())
+            //{
+            //    item.BackColor = this.BackColor;
+            //    item.ForeColor = this.ForeColor;
+            //    item.Refresh();
+            //
+            //    this._overrideControlColors(item);
+            //}
+
+
+            foreach (object item in control.Controls)
+            {
+                if (item is Control controlItem)
+                {
+                    controlItem.BackColor = this.BackColor;
+                    controlItem.ForeColor = this.ForeColor;
+                    this._overrideControlColors(controlItem);
+                }
+                if (item is Label label)
+                {
+                    label.ForeColor = this.ForeColor;
+                    label.BackColor = Color.Transparent;
+                }
+            }
+        }
+
+        private void TabControl_DrawItem(object sender, DrawItemEventArgs e)
+        {
+            if (sender is TabControl tabCtrl)
+            {
+                //Draw box
+                SizeF tabSize = e.Graphics.MeasureString(tabCtrl.TabPages[e.Index].Text, e.Font);
+                using (Brush backBrush = new SolidBrush(this.BackColor))
+                {
+                    e.Graphics.FillRectangle(backBrush, e.Bounds);
+
+                    Rectangle rect = e.Bounds;
+                    rect.Offset(0, 1);
+                    rect.Inflate(0, 1);
+                    e.Graphics.FillRectangle(new SolidBrush(this.BackColor), rect);
+                }
+
+                //Draw text
+                using (Brush textBrush = new SolidBrush(tabCtrl.ForeColor))
+                {
+                    e.Graphics.DrawString(
+                        tabCtrl.TabPages[e.Index].Text,
+                        e.Font,
+                        textBrush,
+                        e.Bounds.Left + (e.Bounds.Width - tabSize.Width) / 2,
+                        e.Bounds.Top + (e.Bounds.Height - tabSize.Height) / 2 + 1
+                    );
+                }
+                e.DrawFocusRectangle();
             }
         }
     }
