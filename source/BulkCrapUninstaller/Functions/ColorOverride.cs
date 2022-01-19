@@ -18,54 +18,76 @@ namespace BulkCrapUninstaller.Functions
             form.BackColor = BackColor;
 
             //Apply Color to all Elements
-            OverrideControlColors(form);
+            foreach (Control control in form.Controls)
+            {
+                OverrideControlColors(control);
+            }
 
             //this.Refresh();
         }
 
-        private static void OverrideControlColors(Control control)
+        public static void OverrideControlColors(Object item)
         {
-            foreach (object item in control.Controls)
+            //Any Control
+            if (item is Control controlItem)
             {
-                //Any Control
-                if (item is Control controlItem)
+                controlItem.BackColor = BackColor;
+                controlItem.ForeColor = ForeColor;
+                foreach (Control control in controlItem.Controls)
                 {
-                    controlItem.BackColor = BackColor;
-                    controlItem.ForeColor = ForeColor;
-                    OverrideControlColors(controlItem);
+                    OverrideControlColors(control);
                 }
+            }
                 
-                //Label
-                if (item is Label label)
-                {
-                    label.ForeColor = ForeColor;
-                    label.BackColor = Color.Transparent;
-                }
+            //Label
+            if (item is Label label)
+            {
+                label.ForeColor = ForeColor;
+                label.BackColor = Color.Transparent;
+            }
                 
-                //Button
-                if (item is Button button)
-                {
-                    button.Paint += new PaintEventHandler(PaintButton);
-                }
+            //Button
+            if (item is Button button)
+            {
+                button.Paint += new PaintEventHandler(PaintButton);
+            }
 
-                //MenuStrip
-                if (item is MenuStrip menuStrip) { 
-                    foreach (ToolStripItem toolStripMenu in menuStrip.Items)
+            if (item is ContextMenuStrip contextMenuStrip)
+            {
+                foreach (ToolStripItem toolStripMenu in contextMenuStrip.Items)
+                {
+                    toolStripMenu.ForeColor = ForeColor;
+                    toolStripMenu.BackColor = BackColor;
+
+                    if (toolStripMenu is ToolStripMenuItem menuItem)
                     {
-                        toolStripMenu.ForeColor = ForeColor;
-                        toolStripMenu.BackColor = BackColor;
-
-                        if (toolStripMenu is ToolStripMenuItem menuItem)
+                        foreach (ToolStripItem dropDownItem in menuItem.DropDownItems)
                         {
-                            foreach (ToolStripItem dropDownItem in menuItem.DropDownItems)
-                            {
-                                dropDownItem.ForeColor = ForeColor;
-                                dropDownItem.BackColor = BackColor;
-                            }
+                            dropDownItem.ForeColor = ForeColor;
+                            dropDownItem.BackColor = BackColor;
                         }
                     }
                 }
             }
+
+            //MenuStrip
+            if (item is MenuStrip menuStrip) { 
+                foreach (ToolStripItem toolStripMenu in menuStrip.Items)
+                {
+                    toolStripMenu.ForeColor = ForeColor;
+                    toolStripMenu.BackColor = BackColor;
+
+                    if (toolStripMenu is ToolStripMenuItem menuItem)
+                    {
+                        foreach (ToolStripItem dropDownItem in menuItem.DropDownItems)
+                        {
+                            dropDownItem.ForeColor = ForeColor;
+                            dropDownItem.BackColor = BackColor;
+                        }
+                    }
+                }
+            }
+            
         }
 
         private static void PaintButton(object sender, System.Windows.Forms.PaintEventArgs e)

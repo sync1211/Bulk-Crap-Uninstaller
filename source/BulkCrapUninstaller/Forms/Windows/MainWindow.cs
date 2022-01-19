@@ -1839,6 +1839,7 @@ namespace BulkCrapUninstaller.Forms
             if (Settings.Default.UseDarkMode)
             {
                 ColorOverride.OverrideColors(this);
+                ColorOverride.OverrideControlColors(uninstallListContextMenuStrip);
                 splashScreen1.ForeColor = this.ForeColor;
                 splashScreen1.BackColor = this.BackColor;
             }
@@ -1868,6 +1869,11 @@ namespace BulkCrapUninstaller.Forms
                 // Draw the line.
                 e.Graphics.DrawLine(new Pen(this.ForeColor), 4, height / 2, width - 4, height / 2);
             }
+        }
+
+        private void uninstallerObjectListView_SelectedChanged(object sender, ItemCheckedEventArgs e)
+        {
+
         }
     }
 }

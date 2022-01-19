@@ -30,7 +30,7 @@ namespace BulkCrapUninstaller.Functions.ApplicationList
 
         //Dark
         public static ApplicationListColors NormalDark = new ApplicationListColors(
-            Color.FromArgb(unchecked((int) 0xff59FF59)),
+            Color.FromArgb(unchecked((int) 0xff2cda2c)),
             Color.FromArgb(unchecked((int) 0xff59ACFF)),
             Color.FromArgb(unchecked((int) 0xffDD4D4D)),
             Color.FromArgb(unchecked((int) 0xffFF8559)),
