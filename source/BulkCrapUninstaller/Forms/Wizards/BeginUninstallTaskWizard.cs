@@ -209,5 +209,18 @@ namespace BulkCrapUninstaller.Forms
             if(DialogResult != DialogResult.OK)
                 SystemRestore.CancelSysRestore();
         }
+
+        private void RelatedUninstallerAdder1_Load(object sender, EventArgs e)
+        {
+            if (Settings.Default.UseDarkMode)
+            {
+                ColorOverride.OverrideColors(this);
+            }
+        }
+
+        private void BeginUninstallTaskWizard_Load(object sender, EventArgs e)
+        {
+            ColorOverride.OverrideColors(this);
+        }
     }
 }

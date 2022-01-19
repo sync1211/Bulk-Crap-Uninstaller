@@ -58,5 +58,10 @@ namespace BulkCrapUninstaller.Forms
         {
             Close();
         }
+
+        private void AdvancedClipboardCopyWindow_Load(object sender, EventArgs e)
+        {
+            ColorOverride.OverrideColors(this);
+        }
     }
 }

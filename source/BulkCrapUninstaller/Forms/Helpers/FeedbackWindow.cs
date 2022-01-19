@@ -3,6 +3,7 @@
     Apache License Version 2.0
 */
 
+using BulkCrapUninstaller.Functions;
 using System;
 using System.Windows.Forms;
 
@@ -49,6 +50,11 @@ namespace BulkCrapUninstaller.Forms
         private void FeedbackWindow_Shown(object sender, EventArgs e)
         {
             webBrowser.Navigate(@"http://klocmansoftware.weebly.com/feedback--contact.html");
+        }
+
+        private void FeedbackWindow_Load(object sender, EventArgs e)
+        {
+            ColorOverride.OverrideColors(this);
         }
     }
 }

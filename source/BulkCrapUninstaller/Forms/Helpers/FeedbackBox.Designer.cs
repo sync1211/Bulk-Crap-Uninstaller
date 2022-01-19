@@ -219,6 +219,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FeedbackBox";
+            this.Load += new System.EventHandler(this.FeedbackBox_Load);
             this.flowLayoutPanel5.ResumeLayout(false);
             this.flowLayoutPanel5.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);

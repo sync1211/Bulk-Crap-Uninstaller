@@ -1454,7 +1454,7 @@ namespace BulkCrapUninstaller.Forms
 
         private void openStartupManagerToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var results = StartupManagerWindow.ShowManagerDialog(this);
+            var results = StartupManagerWindow.ShowManagerDialog(this, Settings.Default.UseDarkMode);
             toolStripLabelStatus.Text = Localisable.MainWindow_Statusbar_RefreshingStartup;
 
             //Application.DoEvents();
@@ -1834,75 +1834,13 @@ namespace BulkCrapUninstaller.Forms
             }
         }
 
-        private void OverrideColors()
-        {
-            this.BackColor = Color.FromArgb(12, 13, 14);
-            this.ForeColor = Color.White;
-
-            //Apply Color to all Elements
-            this._overrideControlColors(this);
-
-            //Elements that require special color settings
-            splashScreen1.ForeColor = this.ForeColor;
-            splashScreen1.BackColor = this.BackColor;
-
-            reloadUninstallersToolStripMenuItem.BackColor = this.BackColor;
-            reloadUninstallersToolStripMenuItem.ForeColor = this.ForeColor;
-
-            label1.ForeColor = this.ForeColor;
-            label1.BackColor = Color.Transparent;
-
-            foreach (ToolStripItem toolStripMenu in menuStrip.Items)
-            {
-                toolStripMenu.ForeColor = this.ForeColor;
-                toolStripMenu.BackColor = this.BackColor;
-
-                if (toolStripMenu is ToolStripMenuItem menuItem)
-                {
-                    foreach (ToolStripItem dropDownItem in menuItem.DropDownItems)
-                    { 
-                        dropDownItem.ForeColor = this.ForeColor;
-                        dropDownItem.BackColor = this.BackColor;
-                    }
-                }
-            }
-
-            //this.Refresh();
-        }
-
-        public void _overrideControlColors(System.Windows.Forms.Control control)
-        {
-            //foreach (Control item in control.GetAllChildren())
-            //{
-            //    item.BackColor = this.BackColor;
-            //    item.ForeColor = this.ForeColor;
-            //    item.Refresh();
-            //
-            //    this._overrideControlColors(item);
-            //}
-
-
-            foreach(object item in control.Controls)
-            {
-                if (item is Control controlItem)
-                {
-                    controlItem.BackColor = this.BackColor;
-                    controlItem.ForeColor = this.ForeColor;
-                    this._overrideControlColors(controlItem);
-                }
-                if (item is Label label)
-                {
-                    label.ForeColor = this.ForeColor;
-                    label.BackColor = Color.Transparent;
-                }        
-            }
-        }
-
         private void MainWindow_Load(object sender, EventArgs e)
         {
             if (Settings.Default.UseDarkMode)
             {
-                this.OverrideColors();
+                ColorOverride.OverrideColors(this);
+                splashScreen1.ForeColor = this.ForeColor;
+                splashScreen1.BackColor = this.BackColor;
             }
 
         }

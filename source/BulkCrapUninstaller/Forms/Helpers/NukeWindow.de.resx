@@ -112,24 +112,24 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Programm vernichten</value>
+  </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Wähle ein Fenster aus</value>
+    <value>Fenster auswählen</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>Wähle einen Installationsordner oder Programmdateien aus</value>
+    <value>Installationsordner oder Programmdateien auswählen</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Finde und deinstalliere ein Programm auf Grund seiner Fenster, seiner Shortcuts, seines Installierungsordners oder seiner .exe Datei</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Bemerkung: Stelle sicher, dass sich alle ausgewählten Dateien im Installationsverzeichnis der Anwendung befinden.                                                Du kannst ein Verzeichnis auswählen, das mehrere Anwendungen enthält, um alle zu deinstallieren.</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Beende ein Programm</value>
   </data>
 </root>

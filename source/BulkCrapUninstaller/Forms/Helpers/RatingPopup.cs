@@ -6,6 +6,7 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using BulkCrapUninstaller.Functions;
 using BulkCrapUninstaller.Functions.Ratings;
 
 namespace BulkCrapUninstaller.Forms
@@ -62,6 +63,11 @@ namespace BulkCrapUninstaller.Forms
         {
             _result = UninstallerRating.Bad;
             Close();
+        }
+
+        private void RatingPopup_Load(object sender, EventArgs e)
+        {
+            ColorOverride.OverrideColors(this);
         }
     }
 }

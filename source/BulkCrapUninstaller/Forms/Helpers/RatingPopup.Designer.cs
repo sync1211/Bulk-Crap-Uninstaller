@@ -99,6 +99,7 @@
             this.Name = "RatingPopup";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.Load += new System.EventHandler(this.RatingPopup_Load);
             this.groupBox1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);

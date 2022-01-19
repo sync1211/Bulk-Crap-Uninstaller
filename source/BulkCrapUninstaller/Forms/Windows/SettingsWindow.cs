@@ -100,7 +100,7 @@ namespace BulkCrapUninstaller.Forms
 
             if (Settings.Default.UseDarkMode)
             {
-                this.OverrideColors();
+                ColorOverride.OverrideColors(this);
             }
         }
 
@@ -228,45 +228,6 @@ namespace BulkCrapUninstaller.Forms
                     break;
                 default:
                     throw new ArgumentOutOfRangeException(nameof(args), args.NewValue, "Unknown value");
-            }
-        }
-
-        private void OverrideColors()
-        {
-            this.BackColor = Color.FromArgb(12, 13, 14);
-            this.ForeColor = Color.White;
-
-            //Apply Color to all Elements
-            this._overrideControlColors(this);
-
-            //this.Refresh();
-        }
-
-        public void _overrideControlColors(System.Windows.Forms.Control control)
-        {
-            //foreach (Control item in control.GetAllChildren())
-            //{
-            //    item.BackColor = this.BackColor;
-            //    item.ForeColor = this.ForeColor;
-            //    item.Refresh();
-            //
-            //    this._overrideControlColors(item);
-            //}
-
-
-            foreach (object item in control.Controls)
-            {
-                if (item is Control controlItem)
-                {
-                    controlItem.BackColor = this.BackColor;
-                    controlItem.ForeColor = this.ForeColor;
-                    this._overrideControlColors(controlItem);
-                }
-                if (item is Label label)
-                {
-                    label.ForeColor = this.ForeColor;
-                    label.BackColor = Color.Transparent;
-                }
             }
         }
 

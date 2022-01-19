@@ -47,25 +47,27 @@
             this.listLegend1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.listLegend1.InvalidEnabled = true;
             this.listLegend1.Location = new System.Drawing.Point(0, 0);
-            this.listLegend1.MinimumSize = new System.Drawing.Size(158, 2);
+            this.listLegend1.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.listLegend1.MinimumSize = new System.Drawing.Size(184, 2);
             this.listLegend1.Name = "listLegend1";
             this.listLegend1.OrphanedEnabled = true;
-            this.listLegend1.Size = new System.Drawing.Size(158, 148);
+            this.listLegend1.Size = new System.Drawing.Size(184, 163);
             this.listLegend1.StoreAppEnabled = true;
             this.listLegend1.TabIndex = 0;
             this.listLegend1.WinFeatureEnabled = true;
             // 
             // ListLegendWindow
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Fuchsia;
-            this.ClientSize = new System.Drawing.Size(300, 300);
+            this.ClientSize = new System.Drawing.Size(350, 346);
             this.ControlBox = false;
             this.Controls.Add(this.listLegend1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ListLegendWindow";
@@ -75,6 +77,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "ListLegendWindow";
             this.TransparencyKey = System.Drawing.Color.Fuchsia;
+            this.Load += new System.EventHandler(this.ListLegendWindow_Load);
             this.EnabledChanged += new System.EventHandler(this.ListLegendWindow_EnabledChanged);
             this.VisibleChanged += new System.EventHandler(this.ListLegendWindow_VisibleChanged);
             this.ResumeLayout(false);

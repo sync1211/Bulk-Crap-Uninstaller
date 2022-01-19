@@ -56,6 +56,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FeedbackWindow";
+            this.Load += new System.EventHandler(this.FeedbackWindow_Load);
             this.Shown += new System.EventHandler(this.FeedbackWindow_Shown);
             this.ResumeLayout(false);
 

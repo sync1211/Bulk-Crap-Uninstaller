@@ -7,6 +7,7 @@ using System;
 using System.Drawing;
 using System.Windows.Forms;
 using BulkCrapUninstaller.Controls;
+using BulkCrapUninstaller.Functions;
 using Klocman.Extensions;
 
 namespace BulkCrapUninstaller.Forms
@@ -89,6 +90,11 @@ namespace BulkCrapUninstaller.Forms
         {
             var pt = PointToClient(Cursor.Position);
             return ClientRectangle.Contains(pt);
+        }
+
+        private void ListLegendWindow_Load(object sender, EventArgs e)
+        {
+            ColorOverride.OverrideColors(this);
         }
     }
 }

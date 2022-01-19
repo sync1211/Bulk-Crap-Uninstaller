@@ -1,64 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
+﻿<root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -117,18 +57,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="flowLayoutPanel5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="flowLayoutPanel5.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
   </data>
   <data name="p1welcomeHeading.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="p1welcomeHeading.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Black, 12pt, style=Bold</value>
   </data>
@@ -136,13 +76,17 @@
     <value>NoControl</value>
   </data>
   <data name="p1welcomeHeading.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 4</value>
+    <value>13, 5</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="p1welcomeHeading.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="p1welcomeHeading.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 8, 0, 3</value>
+    <value>0, 9, 0, 3</value>
   </data>
   <data name="p1welcomeHeading.Size" type="System.Drawing.Size, System.Drawing">
-    <value>315, 34</value>
+    <value>315, 35</value>
   </data>
   <data name="p1welcomeHeading.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -154,7 +98,7 @@
     <value>p1welcomeHeading</value>
   </data>
   <data name="&gt;&gt;p1welcomeHeading.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;p1welcomeHeading.Parent" xml:space="preserve">
     <value>flowLayoutPanel5</value>
@@ -169,13 +113,16 @@
     <value>NoControl</value>
   </data>
   <data name="p1welcomeSubheading.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 38</value>
+    <value>13, 40</value>
+  </data>
+  <data name="p1welcomeSubheading.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="p1welcomeSubheading.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 4</value>
+    <value>0, 0, 0, 5</value>
   </data>
   <data name="p1welcomeSubheading.Size" type="System.Drawing.Size, System.Drawing">
-    <value>322, 43</value>
+    <value>388, 50</value>
   </data>
   <data name="p1welcomeSubheading.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -187,7 +134,7 @@
     <value>p1welcomeSubheading</value>
   </data>
   <data name="&gt;&gt;p1welcomeSubheading.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;p1welcomeSubheading.Parent" xml:space="preserve">
     <value>flowLayoutPanel5</value>
@@ -205,10 +152,13 @@
     <value>GrowAndShrink</value>
   </data>
   <data name="buttonSendFeedback2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>4, 3</value>
+  </data>
+  <data name="buttonSendFeedback2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="buttonSendFeedback2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 23</value>
+    <value>94, 25</value>
   </data>
   <data name="buttonSendFeedback2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -220,7 +170,7 @@
     <value>buttonSendFeedback2</value>
   </data>
   <data name="&gt;&gt;buttonSendFeedback2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonSendFeedback2.Parent" xml:space="preserve">
     <value>flowLayoutPanel1</value>
@@ -235,10 +185,13 @@
     <value>GrowAndShrink</value>
   </data>
   <data name="buttonRate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 3</value>
+    <value>106, 3</value>
+  </data>
+  <data name="buttonRate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="buttonRate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 23</value>
+    <value>187, 25</value>
   </data>
   <data name="buttonRate.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -250,7 +203,7 @@
     <value>buttonRate</value>
   </data>
   <data name="&gt;&gt;buttonRate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonRate.Parent" xml:space="preserve">
     <value>flowLayoutPanel1</value>
@@ -265,10 +218,13 @@
     <value>GrowAndShrink</value>
   </data>
   <data name="buttonTwitter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 32</value>
+    <value>4, 34</value>
+  </data>
+  <data name="buttonTwitter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="buttonTwitter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 23</value>
+    <value>101, 25</value>
   </data>
   <data name="buttonTwitter.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -280,7 +236,7 @@
     <value>buttonTwitter</value>
   </data>
   <data name="&gt;&gt;buttonTwitter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonTwitter.Parent" xml:space="preserve">
     <value>flowLayoutPanel1</value>
@@ -289,10 +245,13 @@
     <value>2</value>
   </data>
   <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 84</value>
+    <value>13, 93</value>
+  </data>
+  <data name="flowLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 58</value>
+    <value>297, 62</value>
   </data>
   <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -301,7 +260,7 @@
     <value>flowLayoutPanel1</value>
   </data>
   <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
     <value>flowLayoutPanel5</value>
@@ -319,13 +278,16 @@
     <value>NoControl</value>
   </data>
   <data name="p1FeedbackHeading.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 145</value>
+    <value>13, 158</value>
+  </data>
+  <data name="p1FeedbackHeading.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="p1FeedbackHeading.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 8, 0, 3</value>
+    <value>0, 9, 0, 3</value>
   </data>
   <data name="p1FeedbackHeading.Size" type="System.Drawing.Size, System.Drawing">
-    <value>315, 34</value>
+    <value>315, 35</value>
   </data>
   <data name="p1FeedbackHeading.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -337,7 +299,7 @@
     <value>p1FeedbackHeading</value>
   </data>
   <data name="&gt;&gt;p1FeedbackHeading.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;p1FeedbackHeading.Parent" xml:space="preserve">
     <value>flowLayoutPanel5</value>
@@ -352,13 +314,16 @@
     <value>NoControl</value>
   </data>
   <data name="p1FeedbackDesc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 179</value>
+    <value>13, 193</value>
+  </data>
+  <data name="p1FeedbackDesc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="p1FeedbackDesc.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 4</value>
+    <value>0, 0, 0, 5</value>
   </data>
   <data name="p1FeedbackDesc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>309, 30</value>
+    <value>385, 35</value>
   </data>
   <data name="p1FeedbackDesc.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -370,7 +335,7 @@
     <value>p1FeedbackDesc</value>
   </data>
   <data name="&gt;&gt;p1FeedbackDesc.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;p1FeedbackDesc.Parent" xml:space="preserve">
     <value>flowLayoutPanel5</value>
@@ -388,10 +353,13 @@
     <value>GrowAndShrink</value>
   </data>
   <data name="buttonSubmitGithub.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>4, 3</value>
+  </data>
+  <data name="buttonSubmitGithub.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="buttonSubmitGithub.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 23</value>
+    <value>214, 25</value>
   </data>
   <data name="buttonSubmitGithub.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -403,7 +371,7 @@
     <value>buttonSubmitGithub</value>
   </data>
   <data name="&gt;&gt;buttonSubmitGithub.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonSubmitGithub.Parent" xml:space="preserve">
     <value>flowLayoutPanel2</value>
@@ -418,10 +386,13 @@
     <value>GrowAndShrink</value>
   </data>
   <data name="buttonSendFeedback.Location" type="System.Drawing.Point, System.Drawing">
-    <value>201, 3</value>
+    <value>226, 3</value>
+  </data>
+  <data name="buttonSendFeedback.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="buttonSendFeedback.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 23</value>
+    <value>94, 25</value>
   </data>
   <data name="buttonSendFeedback.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -433,7 +404,7 @@
     <value>buttonSendFeedback</value>
   </data>
   <data name="&gt;&gt;buttonSendFeedback.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonSendFeedback.Parent" xml:space="preserve">
     <value>flowLayoutPanel2</value>
@@ -442,10 +413,13 @@
     <value>1</value>
   </data>
   <data name="flowLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 212</value>
+    <value>13, 231</value>
+  </data>
+  <data name="flowLayoutPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="flowLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 29</value>
+    <value>324, 31</value>
   </data>
   <data name="flowLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -454,7 +428,7 @@
     <value>flowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;flowLayoutPanel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;flowLayoutPanel2.Parent" xml:space="preserve">
     <value>flowLayoutPanel5</value>
@@ -472,13 +446,16 @@
     <value>NoControl</value>
   </data>
   <data name="p1HelpHeading.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 244</value>
+    <value>13, 265</value>
+  </data>
+  <data name="p1HelpHeading.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="p1HelpHeading.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 8, 0, 3</value>
+    <value>0, 9, 0, 3</value>
   </data>
   <data name="p1HelpHeading.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 34</value>
+    <value>195, 35</value>
   </data>
   <data name="p1HelpHeading.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -490,7 +467,7 @@
     <value>p1HelpHeading</value>
   </data>
   <data name="&gt;&gt;p1HelpHeading.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;p1HelpHeading.Parent" xml:space="preserve">
     <value>flowLayoutPanel5</value>
@@ -505,13 +482,16 @@
     <value>NoControl</value>
   </data>
   <data name="p1HelpDesc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 278</value>
+    <value>13, 300</value>
+  </data>
+  <data name="p1HelpDesc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="p1HelpDesc.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 4</value>
+    <value>0, 0, 0, 5</value>
   </data>
   <data name="p1HelpDesc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>337, 43</value>
+    <value>391, 50</value>
   </data>
   <data name="p1HelpDesc.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -523,7 +503,7 @@
     <value>p1HelpDesc</value>
   </data>
   <data name="&gt;&gt;p1HelpDesc.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;p1HelpDesc.Parent" xml:space="preserve">
     <value>flowLayoutPanel5</value>
@@ -538,13 +518,16 @@
     <value>TopLeft</value>
   </data>
   <data name="buttonDonate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
+    <value>4, 0</value>
+  </data>
+  <data name="buttonDonate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="buttonDonate.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 2, 0, 0</value>
   </data>
   <data name="buttonDonate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 29</value>
+    <value>89, 33</value>
   </data>
   <data name="buttonDonate.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -553,7 +536,7 @@
     <value>buttonDonate</value>
   </data>
   <data name="&gt;&gt;buttonDonate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonDonate.Parent" xml:space="preserve">
     <value>flowLayoutPanel3</value>
@@ -568,10 +551,13 @@
     <value>GrowAndShrink</value>
   </data>
   <data name="buttonTranslate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>85, 3</value>
+    <value>101, 3</value>
+  </data>
+  <data name="buttonTranslate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="buttonTranslate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 23</value>
+    <value>89, 25</value>
   </data>
   <data name="buttonTranslate.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -583,7 +569,7 @@
     <value>buttonTranslate</value>
   </data>
   <data name="&gt;&gt;buttonTranslate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonTranslate.Parent" xml:space="preserve">
     <value>flowLayoutPanel3</value>
@@ -598,10 +584,13 @@
     <value>GrowAndShrink</value>
   </data>
   <data name="buttonIssues.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 3</value>
+    <value>198, 3</value>
+  </data>
+  <data name="buttonIssues.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="buttonIssues.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 23</value>
+    <value>106, 25</value>
   </data>
   <data name="buttonIssues.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -613,7 +602,7 @@
     <value>buttonIssues</value>
   </data>
   <data name="&gt;&gt;buttonIssues.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonIssues.Parent" xml:space="preserve">
     <value>flowLayoutPanel3</value>
@@ -622,10 +611,13 @@
     <value>2</value>
   </data>
   <data name="flowLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 324</value>
+    <value>13, 353</value>
+  </data>
+  <data name="flowLayoutPanel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="flowLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>278, 29</value>
+    <value>308, 33</value>
   </data>
   <data name="flowLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -634,7 +626,7 @@
     <value>flowLayoutPanel3</value>
   </data>
   <data name="&gt;&gt;flowLayoutPanel3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;flowLayoutPanel3.Parent" xml:space="preserve">
     <value>flowLayoutPanel5</value>
@@ -648,11 +640,14 @@
   <data name="flowLayoutPanel5.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="flowLayoutPanel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
   <data name="flowLayoutPanel5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 4, 8, 8</value>
+    <value>9, 5, 9, 9</value>
   </data>
   <data name="flowLayoutPanel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>359, 364</value>
+    <value>419, 398</value>
   </data>
   <data name="flowLayoutPanel5.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -661,7 +656,7 @@
     <value>flowLayoutPanel5</value>
   </data>
   <data name="&gt;&gt;flowLayoutPanel5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;flowLayoutPanel5.Parent" xml:space="preserve">
     <value>$this</value>
@@ -679,16 +674,19 @@
     <value>Left</value>
   </data>
   <data name="checkBoxNeverShow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 8</value>
+    <value>9, 9</value>
+  </data>
+  <data name="checkBoxNeverShow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="checkBoxNeverShow.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>9999, 23</value>
+    <value>11666, 27</value>
   </data>
   <data name="checkBoxNeverShow.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 23</value>
+    <value>0, 27</value>
   </data>
   <data name="checkBoxNeverShow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 23</value>
+    <value>238, 27</value>
   </data>
   <data name="checkBoxNeverShow.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -700,7 +698,7 @@
     <value>checkBoxNeverShow</value>
   </data>
   <data name="&gt;&gt;checkBoxNeverShow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;checkBoxNeverShow.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -712,16 +710,19 @@
     <value>Right</value>
   </data>
   <data name="buttonClose.Location" type="System.Drawing.Point, System.Drawing">
-    <value>276, 8</value>
+    <value>322, 9</value>
+  </data>
+  <data name="buttonClose.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="buttonClose.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>9999, 23</value>
+    <value>11666, 27</value>
   </data>
   <data name="buttonClose.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 23</value>
+    <value>0, 27</value>
   </data>
   <data name="buttonClose.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>88, 27</value>
   </data>
   <data name="buttonClose.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -733,7 +734,7 @@
     <value>buttonClose</value>
   </data>
   <data name="&gt;&gt;buttonClose.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonClose.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -745,13 +746,16 @@
     <value>Top</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 364</value>
+    <value>0, 398</value>
+  </data>
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="panel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
+    <value>9, 9, 9, 9</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>359, 39</value>
+    <value>419, 45</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -760,7 +764,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -768,8 +772,11 @@
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>7, 15</value>
   </data>
   <data name="$this.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -778,13 +785,16 @@
     <value>GrowAndShrink</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>359, 490</value>
+    <value>419, 565</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>375, 9999999</value>
+    <value>435, 11538454</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>375, 39</value>
+    <value>435, 39</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Send feedback</value>
@@ -793,9 +803,6 @@
     <value>FeedbackBox</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>

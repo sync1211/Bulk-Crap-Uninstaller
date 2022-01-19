@@ -38,9 +38,9 @@
             // 
             // panel1
             // 
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Controls.Add(this.buttonClose);
             this.panel1.Controls.Add(this.buttonCopyAll);
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // buttonClose
@@ -74,6 +74,7 @@
             this.Controls.Add(this.advancedClipboardCopy1);
             this.Controls.Add(this.panel1);
             this.Name = "AdvancedClipboardCopyWindow";
+            this.Load += new System.EventHandler(this.AdvancedClipboardCopyWindow_Load);
             this.Shown += new System.EventHandler(this.AdvancedClipboardCopyWindow_Shown);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);

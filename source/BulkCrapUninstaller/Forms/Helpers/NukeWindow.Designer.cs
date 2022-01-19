@@ -120,6 +120,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            this.Load += new System.EventHandler(this.NukeWindow_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);

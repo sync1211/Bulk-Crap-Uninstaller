@@ -5,6 +5,7 @@
 
 using System;
 using System.Windows.Forms;
+using BulkCrapUninstaller.Functions;
 using BulkCrapUninstaller.Properties;
 
 namespace BulkCrapUninstaller.Forms
@@ -72,6 +73,11 @@ namespace BulkCrapUninstaller.Forms
         private void buttonDonate_Click(object sender, EventArgs e)
         {
             MainWindow.OpenUrls(new[] { new Uri(Resources.DonateLink) });
+        }
+
+        private void FeedbackBox_Load(object sender, EventArgs e)
+        {
+            ColorOverride.OverrideColors(this);
         }
     }
 }

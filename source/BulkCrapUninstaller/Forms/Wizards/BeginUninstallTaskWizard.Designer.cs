@@ -164,6 +164,7 @@ namespace BulkCrapUninstaller.Forms
             // 
             resources.ApplyResources(this.relatedUninstallerAdder1, "relatedUninstallerAdder1");
             this.relatedUninstallerAdder1.Name = "relatedUninstallerAdder1";
+            this.relatedUninstallerAdder1.Load += new System.EventHandler(this.RelatedUninstallerAdder1_Load);
             // 
             // flowLayoutPanel5
             // 
@@ -383,6 +384,7 @@ namespace BulkCrapUninstaller.Forms
             this.Name = "BeginUninstallTaskWizard";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.BeginUninstallTaskWizard_FormClosed);
+            this.Load += new System.EventHandler(this.BeginUninstallTaskWizard_Load);
             this.panelNavigation.ResumeLayout(false);
             this.panelNavigation.PerformLayout();
             this.panel1.ResumeLayout(false);

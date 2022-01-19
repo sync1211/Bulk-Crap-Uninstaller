@@ -162,6 +162,7 @@ namespace BulkCrapUninstaller.Forms
             this.Controls.Add(this.tabControl1);
             this.KeyPreview = true;
             this.Name = "PropertiesWindow";
+            this.Load += new System.EventHandler(this.PropertiesWindow_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PropertiesWindow_KeyDown);
             this.contextMenuStrip1.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);

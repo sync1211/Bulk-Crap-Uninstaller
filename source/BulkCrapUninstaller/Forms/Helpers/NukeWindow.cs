@@ -13,6 +13,7 @@ using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 using BulkCrapUninstaller.Properties;
+using BulkCrapUninstaller.Functions;
 
 namespace BulkCrapUninstaller.Forms
 {
@@ -80,6 +81,11 @@ namespace BulkCrapUninstaller.Forms
 
                 return results;
             }
+        }
+
+        private void NukeWindow_Load(object sender, EventArgs e)
+        {
+            ColorOverride.OverrideColors(this);
         }
     }
 }

@@ -4,6 +4,7 @@
 */
 
 using System;
+using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 using BulkCrapUninstaller.Functions;
@@ -77,6 +78,14 @@ namespace BulkCrapUninstaller.Forms
         private void linkLabel7_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             MainWindow.OpenUrls(new[] { new Uri(Resources.DonateLink) });
+        }
+
+        private void NewsPopup_Load(object sender, EventArgs e)
+        {
+            if (Settings.Default.UseDarkMode)
+            {
+                ColorOverride.OverrideColors(this);
+            }
         }
     }
 }

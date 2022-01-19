@@ -147,6 +147,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            this.Load += new System.EventHandler(this.NewsPopup_Load);
             this.Click += new System.EventHandler(this.Close);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();

@@ -201,5 +201,10 @@ namespace BulkCrapUninstaller.Forms
         {
             FeedbackBox.ShowFeedbackBox(this, true);
         }
+
+        private void DebugWindow_Load(object sender, EventArgs e)
+        {
+            ColorOverride.OverrideColors(this);
+        }
     }
 }

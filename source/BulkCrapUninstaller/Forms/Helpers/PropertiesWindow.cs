@@ -157,5 +157,10 @@ namespace BulkCrapUninstaller.Forms
         {
             saveFileDialog1.ShowDialog();
         }
+
+        private void PropertiesWindow_Load(object sender, EventArgs e)
+        {
+            ColorOverride.OverrideColors(this);
+        }
     }
 }

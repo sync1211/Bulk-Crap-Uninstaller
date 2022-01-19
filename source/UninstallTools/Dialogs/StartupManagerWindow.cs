@@ -11,6 +11,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
+using BulkCrapUninstaller.Functions;
 using Klocman.Extensions;
 using Klocman.Forms;
 using Klocman.Forms.Tools;
@@ -49,7 +50,7 @@ namespace UninstallTools.Dialogs
         ///     Show startup manager dialog. Returns latest startup entry list.
         /// </summary>
         /// <param name="owner">Parent form</param>
-        public static IEnumerable<StartupEntryBase> ShowManagerDialog(Form owner)
+        public static IEnumerable<StartupEntryBase> ShowManagerDialog(Form owner, bool useDarkMode)
         {
             using (var window = new StartupManagerWindow())
             {
@@ -58,7 +59,14 @@ namespace UninstallTools.Dialogs
                     window.StartPosition = FormStartPosition.CenterParent;
                     window.Icon = owner.Icon;
                 }
+
+                if (useDarkMode)
+                {
+                    ColorOverride.OverrideColors(window);
+                }
+
                 window.ShowDialog(owner);
+
                 return window.AllItems;
             }
         }
