@@ -38,6 +38,13 @@ namespace Klocman.Forms
         {
         }
 
+        public CmbBasicSettings(string title, string largeHeading, string smallExplanation, Icon iconSet,
+           string rightButton, Color? foreColor, Color? backColor)
+            : this(title, largeHeading, smallExplanation, iconSet, rightButton, null,
+                null, foreColor, backColor)
+        {
+        }
+
         /*
         public CustomMessageBoxBasicSettings(string title, string largeHeading, string smallExplanation, Icon iconSet,
             string leftButton, string middleButton, string rightButton):this(title, largeHeading, smallExplanation, iconSet, leftButton, middleButton, rightButton){}

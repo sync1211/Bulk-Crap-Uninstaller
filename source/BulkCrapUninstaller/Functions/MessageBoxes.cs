@@ -32,16 +32,30 @@ namespace BulkCrapUninstaller.Functions
 
         public static void RatingsDisabled()
         {
-            MessageBox.Show(DefaultOwner,
-                Localisable.MessageBoxes_RatingsDisabled_Message,
-                Localisable.MessageBoxes_RatingErrorTitle, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            CustomMessageBox.ShowDialog(DefaultOwner,
+                 new CmbBasicSettings(
+                    Localisable.MessageBoxes_RatingErrorTitle, 
+                    Localisable.MessageBoxes_RatingsDisabled_Message,
+                    "",
+                    SystemIcons.Warning,
+                    "Ok",
+                    Settings.Default.UseDarkMode ? ColorOverride.ForeColor : null,
+                    Settings.Default.UseDarkMode ? ColorOverride.BackColor : null
+                ));
         }
 
         public static void RatingUnavailable()
         {
-            MessageBox.Show(DefaultOwner,
-                Localisable.MessageBoxes_RatingUnavailable_Message,
-                Localisable.MessageBoxes_RatingErrorTitle, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            CustomMessageBox.ShowDialog(DefaultOwner,
+                 new CmbBasicSettings(
+                    Localisable.MessageBoxes_RatingErrorTitle,
+                    Localisable.MessageBoxes_RatingUnavailable_Message,
+                    "",
+                    SystemIcons.Warning,
+                    "Ok",
+                    Settings.Default.UseDarkMode ? ColorOverride.ForeColor : null,
+                    Settings.Default.UseDarkMode ? ColorOverride.BackColor : null
+                ));
         }
 
         internal static CustomMessageBox.PressedButton AskToSubmitFeedback()
@@ -50,7 +64,10 @@ namespace BulkCrapUninstaller.Functions
                 new CmbBasicSettings(Localisable.MessageBoxes_Title_Submit_feedback,
                     Localisable.MessageBoxes_AskToSubmitFeedback_Message,
                     Localisable.MessageBoxes_AskToSubmitFeedback_Details,
-                    SystemIcons.Question, Buttons.ButtonRate, Buttons.ButtonSubmit, Buttons.ButtonClose));
+                    SystemIcons.Question, Buttons.ButtonRate, Buttons.ButtonSubmit, Buttons.ButtonClose,
+                    Settings.Default.UseDarkMode ? ColorOverride.ForeColor : null,
+                    Settings.Default.UseDarkMode ? ColorOverride.BackColor : null
+                ));
         }
 
         internal static PressedButton BackupFailedQuestion(string exMessage, Form owner)
@@ -60,7 +77,10 @@ namespace BulkCrapUninstaller.Functions
                     new CmbBasicSettings(Localisable.MessageBoxes_Title_Leftover_removal,
                         Localisable.MessageBoxes_BackupFailedQuestion_Message,
                         Localisable.MessageBoxes_BackupFailedQuestion_Details + exMessage,
-                        SystemIcons.Warning, Buttons.ButtonContinue, Buttons.ButtonCancel)))
+                        SystemIcons.Warning, Buttons.ButtonContinue, Buttons.ButtonCancel,
+                        Settings.Default.UseDarkMode ? ColorOverride.ForeColor : null,
+                        Settings.Default.UseDarkMode ? ColorOverride.BackColor : null
+                    )))
             {
                 case CustomMessageBox.PressedButton.Middle:
                     return PressedButton.Yes;
@@ -78,7 +98,9 @@ namespace BulkCrapUninstaller.Functions
                     new CmbBasicSettings(Localisable.MessageBoxes_Title_Leftover_removal,
                         Localisable.MessageBoxes_BackupRegistryQuestion_Message,
                         Localisable.MessageBoxes_BackupRegistryQuestion_Details,
-                        SystemIcons.Question, Buttons.ButtonCreate, Buttons.ButtonDontCreate, Buttons.ButtonCancel    
+                        SystemIcons.Question, Buttons.ButtonCreate, Buttons.ButtonDontCreate, Buttons.ButtonCancel,
+                        Settings.Default.UseDarkMode ? ColorOverride.ForeColor : null,
+                        Settings.Default.UseDarkMode ? ColorOverride.BackColor : null
                     ),
                     check))
             {
@@ -584,7 +606,10 @@ namespace BulkCrapUninstaller.Functions
                     Localisable.MessageBoxes_UpdateFailed_Message,
                     Localisable.MessageBoxes_UpdateFailed_Details + Localisable.MessageBoxes_Error_details +
                     errorMessage,
-                    SystemIcons.Error, Buttons.ButtonClose));
+                    SystemIcons.Error, Buttons.ButtonClose, null,
+                    Settings.Default.UseDarkMode ? ColorOverride.ForeColor : null,
+                    Settings.Default.UseDarkMode ? ColorOverride.BackColor : null
+                ));
         }
 
         internal static void UpdateUptodate()
@@ -593,7 +618,10 @@ namespace BulkCrapUninstaller.Functions
                 new CmbBasicSettings(Localisable.MessageBoxes_Title_Search_for_updates,
                     Localisable.MessageBoxes_UpdateUptodate_Message,
                     Localisable.MessageBoxes_UpdateUptodate_Details,
-                    SystemIcons.Information, Buttons.ButtonClose));
+                    SystemIcons.Information, Buttons.ButtonClose, null,
+                    Settings.Default.UseDarkMode ? ColorOverride.ForeColor : null,
+                    Settings.Default.UseDarkMode ? ColorOverride.BackColor : null
+                ));
         }
 
         internal static void ForceRunUninstallFailedError(Form owner, IEnumerable<string> failed)
@@ -603,7 +631,10 @@ namespace BulkCrapUninstaller.Functions
                     Localisable.MessageBoxes_ForceRunUninstallFailedError_Header,
                     string.Format(CultureInfo.InvariantCulture, Localisable.MessageBoxes_ForceRunUninstallFailedError_Message,
                         string.Join("\n", failed.ToArray())),
-                    SystemIcons.Error, Buttons.ButtonClose));
+                    SystemIcons.Error, Buttons.ButtonClose, null,
+                    Settings.Default.UseDarkMode ? ColorOverride.ForeColor : null,
+                    Settings.Default.UseDarkMode ? ColorOverride.BackColor : null
+                ));
         }
 
         //public static void Net4MissingInfo()
