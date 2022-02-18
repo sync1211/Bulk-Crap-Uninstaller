@@ -29,6 +29,16 @@ namespace BulkCrapUninstaller.Forms
             Icon = Resources.Icon_Logo;
 
             _titleBeginning = Text;
+
+            //Enable customization for the tab controls
+            if (Settings.Default.UseDarkMode)
+            {
+                tabControl1.DrawMode = TabDrawMode.OwnerDrawFixed;
+                tabControl1.DrawItem += new System.Windows.Forms.DrawItemEventHandler(ColorOverride.TabControl_DrawItem);
+
+                tabControl2.DrawMode = TabDrawMode.OwnerDrawFixed;
+                tabControl2.DrawItem += new System.Windows.Forms.DrawItemEventHandler(ColorOverride.TabControl_DrawItem);
+            }
         }
 
         private InfoType CurrentlyVisiblePage

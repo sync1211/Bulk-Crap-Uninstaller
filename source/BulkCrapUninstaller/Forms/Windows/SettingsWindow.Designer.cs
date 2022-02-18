@@ -42,6 +42,7 @@ namespace BulkCrapUninstaller.Forms
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.checkBoxAutoLoad = new System.Windows.Forms.CheckBox();
             this.checkBoxColorblind = new System.Windows.Forms.CheckBox();
+            this.checkBoxDarkMode = new System.Windows.Forms.CheckBox();
             this.checkBoxDpiaware = new System.Windows.Forms.CheckBox();
             this.checkBoxRatings = new System.Windows.Forms.CheckBox();
             this.checkBoxUpdateSearch = new System.Windows.Forms.CheckBox();
@@ -108,7 +109,6 @@ namespace BulkCrapUninstaller.Forms
             this.flowLayoutPanel10 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.usageTracker1 = new BulkCrapUninstaller.Functions.Tracking.UsageTracker();
-            this.checkBoxDarkMode = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -205,6 +205,12 @@ namespace BulkCrapUninstaller.Forms
             resources.ApplyResources(this.checkBoxColorblind, "checkBoxColorblind");
             this.checkBoxColorblind.Name = "checkBoxColorblind";
             this.checkBoxColorblind.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxDarkMode
+            // 
+            resources.ApplyResources(this.checkBoxDarkMode, "checkBoxDarkMode");
+            this.checkBoxDarkMode.Name = "checkBoxDarkMode";
+            this.checkBoxDarkMode.UseVisualStyleBackColor = true;
             // 
             // checkBoxDpiaware
             // 
@@ -676,12 +682,6 @@ namespace BulkCrapUninstaller.Forms
             // usageTracker1
             // 
             this.usageTracker1.ContainerControl = this;
-            // 
-            // checkBoxDarkMode
-            // 
-            resources.ApplyResources(this.checkBoxDarkMode, "checkBoxDarkMode");
-            this.checkBoxDarkMode.Name = "checkBoxDarkMode";
-            this.checkBoxDarkMode.UseVisualStyleBackColor = true;
             // 
             // SettingsWindow
             // 

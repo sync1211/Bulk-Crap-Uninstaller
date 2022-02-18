@@ -95,8 +95,11 @@ namespace BulkCrapUninstaller.Forms
 
             _restartNeeded = false;
 
-            tabControl.DrawMode = TabDrawMode.OwnerDrawFixed;
-            tabControl.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.TabControl_DrawItem);
+            if (Settings.Default.UseDarkMode)
+            {
+                tabControl.DrawMode = TabDrawMode.OwnerDrawFixed;
+                tabControl.DrawItem += new System.Windows.Forms.DrawItemEventHandler(ColorOverride.TabControl_DrawItem);
+            }
 
             if (Settings.Default.UseDarkMode)
             {
@@ -228,37 +231,6 @@ namespace BulkCrapUninstaller.Forms
                     break;
                 default:
                     throw new ArgumentOutOfRangeException(nameof(args), args.NewValue, "Unknown value");
-            }
-        }
-
-        private void TabControl_DrawItem(object sender, DrawItemEventArgs e)
-        {
-            if (sender is TabControl tabCtrl)
-            {
-                //Draw box
-                SizeF tabSize = e.Graphics.MeasureString(tabCtrl.TabPages[e.Index].Text, e.Font);
-                using (Brush backBrush = new SolidBrush(this.BackColor))
-                {
-                    e.Graphics.FillRectangle(backBrush, e.Bounds);
-
-                    Rectangle rect = e.Bounds;
-                    rect.Offset(0, 1);
-                    rect.Inflate(0, 1);
-                    e.Graphics.FillRectangle(new SolidBrush(this.BackColor), rect);
-                }
-
-                //Draw text
-                using (Brush textBrush = new SolidBrush(tabCtrl.ForeColor))
-                {
-                    e.Graphics.DrawString(
-                        tabCtrl.TabPages[e.Index].Text,
-                        e.Font,
-                        textBrush,
-                        e.Bounds.Left + (e.Bounds.Width - tabSize.Width) / 2,
-                        e.Bounds.Top + (e.Bounds.Height - tabSize.Height) / 2 + 1
-                    );
-                }
-                e.DrawFocusRectangle();
             }
         }
     }

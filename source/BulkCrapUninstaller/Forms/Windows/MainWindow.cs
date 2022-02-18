@@ -194,6 +194,7 @@ namespace BulkCrapUninstaller.Forms
             _setMan.Selected.Subscribe((x, y) => splitContainerListAndMap.Panel2Collapsed = !y.NewValue, settings => settings.ShowTreeMap, this);
 
             uninstallerObjectListView.ContextMenuStrip = uninstallListContextMenuStrip;
+
         }
 
         protected override void OnDpiChanged(DpiChangedEventArgs e)
@@ -1869,11 +1870,6 @@ namespace BulkCrapUninstaller.Forms
                 // Draw the line.
                 e.Graphics.DrawLine(new Pen(this.ForeColor), 4, height / 2, width - 4, height / 2);
             }
-        }
-
-        private void uninstallerObjectListView_SelectedChanged(object sender, ItemCheckedEventArgs e)
-        {
-
         }
     }
 }

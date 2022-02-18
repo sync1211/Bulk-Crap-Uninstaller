@@ -13,7 +13,7 @@ namespace BulkCrapUninstaller.Functions
 
         public static void OverrideColors(Form form)
         {
-            //TODO: Declare the colors as constants
+            //TODO: Declare colors as constants
             form.ForeColor = ForeColor;
             form.BackColor = BackColor;
 
@@ -87,9 +87,21 @@ namespace BulkCrapUninstaller.Functions
                     }
                 }
             }
-            
+
+            //DataGridView
+            if (item is DataGridView dataGridView)
+            {
+                dataGridView.DefaultCellStyle.ForeColor = ForeColor;
+                dataGridView.DefaultCellStyle.BackColor = BackColor;
+
+                dataGridView.EnableHeadersVisualStyles = false;
+                dataGridView.ColumnHeadersDefaultCellStyle.ForeColor = ForeColor;
+                dataGridView.ColumnHeadersDefaultCellStyle.BackColor = BackColor;
+            }
+
         }
 
+        //Functions for overriding the rendering methods of controls
         private static void PaintButton(object sender, System.Windows.Forms.PaintEventArgs e)
         {
             if (sender is Button btn)
@@ -149,5 +161,38 @@ namespace BulkCrapUninstaller.Functions
                 sf.Dispose();
             }
         }
+   
+        public static void TabControl_DrawItem(object sender, DrawItemEventArgs e)
+        {
+            if (sender is TabControl tabCtrl)
+            {
+                //Draw box
+                SizeF tabSize = e.Graphics.MeasureString(tabCtrl.TabPages[e.Index].Text, e.Font);
+                using (Brush backBrush = new SolidBrush(ColorOverride.BackColor))
+                {
+                    e.Graphics.FillRectangle(backBrush, e.Bounds);
+
+                    Rectangle rect = e.Bounds;
+                    rect.Offset(0, 1);
+                    rect.Inflate(0, 1);
+                    e.Graphics.FillRectangle(new SolidBrush(ColorOverride.BackColor), rect);
+                }
+
+                //Draw text
+                using (Brush textBrush = new SolidBrush(tabCtrl.ForeColor))
+                {
+                    e.Graphics.DrawString(
+                        tabCtrl.TabPages[e.Index].Text,
+                        e.Font,
+                        textBrush,
+                        e.Bounds.Left + (e.Bounds.Width - tabSize.Width) / 2,
+                        e.Bounds.Top + (e.Bounds.Height - tabSize.Height) / 2 + 1
+                    );
+                }
+                e.DrawFocusRectangle();
+            }
+        }
     }
+
+
 }
