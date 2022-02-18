@@ -13,14 +13,28 @@ namespace Klocman.Forms
         public CmbBasicSettings(string title, string largeHeading, string smallExplanation, Icon iconSet,
             string rightButton)
             : this(title, largeHeading, smallExplanation, iconSet, null, null,
-                rightButton)
+                rightButton, null, null)
         {
         }
 
         public CmbBasicSettings(string title, string largeHeading, string smallExplanation, Icon iconSet,
             string middleButton, string rightButton)
             : this(title, largeHeading, smallExplanation, iconSet, null, middleButton,
-                rightButton)
+                rightButton, null, null)
+        {
+        }
+
+        public CmbBasicSettings(string title, string largeHeading, string smallExplanation, Icon iconSet,
+            string middleButton, string rightButton, Color? foreColor, Color? backColor)
+            : this(title, largeHeading, smallExplanation, iconSet, null, middleButton,
+                rightButton, foreColor, backColor)
+        {
+        }
+
+        public CmbBasicSettings(string title, string largeHeading, string smallExplanation, Icon iconSet,
+           string leftButton, string middleButton, string rightButton)
+            : this(title, largeHeading, smallExplanation, iconSet, null, middleButton,
+                rightButton, null, null)
         {
         }
 
@@ -55,7 +69,7 @@ namespace Klocman.Forms
         /// <param name="rightButton">The right button--typically "Cancel", but could be "No".</param>
         /// <param name="iconSet">An image to be displayed on the left side of the dialog. Should be 32 x 32 pixels.</param>
         public CmbBasicSettings(string title, string largeHeading, string smallExplanation, Icon iconSet,
-            string leftButton, string middleButton, string rightButton)
+            string leftButton, string middleButton, string rightButton, Color? foreColor, Color? backColor)
         {
             Title = title;
             LargeHeading = largeHeading;
@@ -67,6 +81,9 @@ namespace Klocman.Forms
 
             StartPosition = FormStartPosition.CenterParent;
             AlwaysOnTop = false;
+
+            ForeColor = foreColor;
+            BackColor = backColor;
         }
 
         public bool AlwaysOnTop { get; set; }
@@ -81,5 +98,7 @@ namespace Klocman.Forms
         public FormStartPosition StartPosition { get; set; }
         public string Title { get; }
         public Icon WindowIcon { get; set; }
+        public Color? ForeColor { get; set; }
+        public Color? BackColor { get; set; }
     }
 }

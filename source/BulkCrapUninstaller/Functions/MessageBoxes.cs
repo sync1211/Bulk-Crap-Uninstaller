@@ -78,7 +78,8 @@ namespace BulkCrapUninstaller.Functions
                     new CmbBasicSettings(Localisable.MessageBoxes_Title_Leftover_removal,
                         Localisable.MessageBoxes_BackupRegistryQuestion_Message,
                         Localisable.MessageBoxes_BackupRegistryQuestion_Details,
-                        SystemIcons.Question, Buttons.ButtonCreate, Buttons.ButtonDontCreate, Buttons.ButtonCancel),
+                        SystemIcons.Question, Buttons.ButtonCreate, Buttons.ButtonDontCreate, Buttons.ButtonCancel    
+                    ),
                     check))
             {
                 case CustomMessageBox.PressedButton.Left:
@@ -566,10 +567,14 @@ namespace BulkCrapUninstaller.Functions
             //        SystemIcons.Information, Buttons.ButtonYes, Buttons.ButtonNo)) == CustomMessageBox.PressedButton.Middle;
 
             return CustomMessageBox.ShowDialog(DefaultOwner,
-                new CmbBasicSettings(Localisable.MessageBoxes_Title_Search_for_updates,
+                new CmbBasicSettings(
+                    Localisable.MessageBoxes_Title_Search_for_updates,
                     string.Format(CultureInfo.CurrentCulture, Localisable.MessageBoxes_UpdateAskToDownload_Message, versionNumber),
                     string.Format(CultureInfo.CurrentCulture, "Do you want to open the download page to get the latest version of BCUninstaller?"), //todo localize
-                    SystemIcons.Information, Buttons.ButtonYes, Buttons.ButtonNo)) == CustomMessageBox.PressedButton.Middle;
+                    SystemIcons.Information, Buttons.ButtonYes, Buttons.ButtonNo,
+                    Settings.Default.UseDarkMode ? ColorOverride.ForeColor : null,
+                    Settings.Default.UseDarkMode ? ColorOverride.BackColor : null
+                )) == CustomMessageBox.PressedButton.Middle;
         }
 
         internal static void UpdateFailed(string errorMessage)

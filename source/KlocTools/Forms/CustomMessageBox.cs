@@ -108,6 +108,28 @@ namespace Klocman.Forms
             TopMost = settings.AlwaysOnTop;
 
             _overrideIcon = settings.WindowIcon;
+
+            if (settings.ForeColor != null) { this.ForeColor = (Color) settings.ForeColor; }
+            if (settings.BackColor != null) { this.BackColor = (Color) settings.BackColor; }
+            if (settings.ForeColor != null || settings.BackColor != null)
+            {
+                foreach (Control control in this.Controls)
+                {
+                    control.ForeColor = this.ForeColor;
+                    control.BackColor = this.BackColor;
+
+                    foreach (Control subControl in control.Controls)
+                    {
+                        subControl.ForeColor = this.ForeColor;
+                        subControl.BackColor = this.BackColor;
+                    }
+                }
+
+                panelButtons.BackColor = ControlPaint.Light(this.BackColor);
+                panel1.BackColor = panelButtons.BackColor;
+                panelMiddle.BackColor = panelButtons.BackColor;
+                panelLeft.BackColor = panelButtons.BackColor;
+            }
         }
 
         internal bool Checked => checkBox1.Checked;
