@@ -112,16 +112,16 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
     <value>Danke für die Benutzung von BCUninstaller!</value>
   </data>
   <data name="p1welcomeSubheading.Text" xml:space="preserve">
-    <value>Wenn du dieses Open Source Tool nutzvoll findest, erzähle deinen Freunden davon, teile es auf den Sozialen Medien. Jedes bißchen Hilfe zählt.</value>
+    <value>Wenn du dieses Open Source Tool nutzvoll findest, erzähle deinen Freunden davon oder teile es auf den Sozialen Medien. Jedes bißchen Hilfe zählt.</value>
   </data>
   <data name="buttonSendFeedback2.Text" xml:space="preserve">
     <value>Feedback senden</value>
@@ -139,7 +139,7 @@
     <value>Wenn Sie irgendwelche Probleme mit BCU hatten oder eine Verbesserung haben nutzen sie diese Links:</value>
   </data>
   <data name="buttonSubmitGithub.Text" xml:space="preserve">
-    <value>An GitHub senden (Account benötigt)</value>
+    <value>Auf GitHub einreichen (Account benötigt)</value>
   </data>
   <data name="buttonSendFeedback.Text" xml:space="preserve">
     <value>Feedback senden</value>
@@ -154,10 +154,10 @@
     <value>BCU übersetzen</value>
   </data>
   <data name="buttonIssues.Text" xml:space="preserve">
-    <value>Probleme mit GitHub</value>
+    <value>Probleme auf GitHub</value>
   </data>
   <data name="checkBoxNeverShow.Text" xml:space="preserve">
-    <value>Niemals mehr dieses Fenster zeigen</value>
+    <value>Nicht mehr anzeigen</value>
   </data>
   <data name="buttonClose.Text" xml:space="preserve">
     <value>Schließen</value>

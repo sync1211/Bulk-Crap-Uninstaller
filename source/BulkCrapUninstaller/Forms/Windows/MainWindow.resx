@@ -239,7 +239,7 @@
     <value>4, 3, 4, 3</value>
   </data>
   <data name="uninstallerObjectListView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>474, 343</value>
+    <value>474, 342</value>
   </data>
   <data name="uninstallerObjectListView.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -266,7 +266,7 @@
     <value>4, 3, 4, 3</value>
   </data>
   <data name="listViewPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>476, 345</value>
+    <value>476, 344</value>
   </data>
   <data name="listViewPanel.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -305,7 +305,7 @@
     <value>5, 3, 5, 3</value>
   </data>
   <data name="treeMap1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>476, 198</value>
+    <value>476, 199</value>
   </data>
   <data name="treeMap1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -338,7 +338,7 @@
     <value>476, 548</value>
   </data>
   <data name="splitContainerListAndMap.SplitterDistance" type="System.Int32, mscorlib">
-    <value>345</value>
+    <value>344</value>
   </data>
   <data name="splitContainerListAndMap.SplitterWidth" type="System.Int32, mscorlib">
     <value>5</value>

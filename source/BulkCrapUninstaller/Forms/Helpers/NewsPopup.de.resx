@@ -112,22 +112,16 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
     <value>Um den Dialog zu schließen, klicke in diesem Fenster irgendwo hin</value>
   </data>
-  <data name="linkLabel7.Text" xml:space="preserve">
-    <value>Spende (PayPal, Bitcoin, Steam Geschenke)</value>
-  </data>
-  <data name="linkLabel6.Text" xml:space="preserve">
-    <value>Sende Feedback / Kontakt zum Entwickler</value>
-  </data>
   <data name="linkLabel5.Text" xml:space="preserve">
-    <value>Hilfe lesen</value>
+    <value>Hilfe</value>
   </data>
   <data name="linkLabel4.Text" xml:space="preserve">
     <value>Datenschutzrichtlinie</value>
@@ -136,7 +130,7 @@
     <value>Lizenzbestimmungen</value>
   </data>
   <data name="linkLabel2.Text" xml:space="preserve">
-    <value>Zeige oder ändere den Source Code</value>
+    <value>Quelltext ansehen oder ändern</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
     <value>Versionshinweise und Änderungen</value>
@@ -145,6 +139,12 @@
     <value>Spenden helfen bei der Weiterentwicklung dieses Projektes wie z.B. Zertifikate, Hosting und andere Keinigkeiten</value>
   </data>
   <data name="checkBoxNeverShow.Text" xml:space="preserve">
-    <value>Niemals mehr dieses Fenster zeigen</value>
+    <value>Nicht mehr anzeigen</value>
+  </data>
+  <data name="linkLabel6.Text" xml:space="preserve">
+    <value>Sende Feedback / Kontaktiere den Entwickler</value>
+  </data>
+  <data name="u" xml:space="preserve">
+    <value>Spende (PayPal, Bitcoin, Steam Geschenke)</value>
   </data>
 </root>
