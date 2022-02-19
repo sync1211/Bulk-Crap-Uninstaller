@@ -10,6 +10,8 @@ namespace BulkCrapUninstaller.Functions
         public static Color ForeColor = Color.White;
         public static Color ForeColorDisabled = Color.Gray;
         public static Color BackColor = Color.FromArgb(12, 13, 14);
+        public static Color BackColorHover = Color.FromArgb(unchecked((int) 0xff07090d));
+        public static Color BackColorActive = Color.FromArgb(unchecked((int) 0xff07090d));
 
         public static void OverrideColors(Form form)
         {
@@ -97,6 +99,31 @@ namespace BulkCrapUninstaller.Functions
                 dataGridView.EnableHeadersVisualStyles = false;
                 dataGridView.ColumnHeadersDefaultCellStyle.ForeColor = ForeColor;
                 dataGridView.ColumnHeadersDefaultCellStyle.BackColor = BackColor;
+            }
+
+            //ObjectListView
+            if (item is BrightIdeasSoftware.ObjectListView objectListView)
+            {
+                if (objectListView.HeaderFormatStyle != null)
+                {
+                    objectListView.HeaderFormatStyle.SetForeColor(ForeColor);
+                    objectListView.HeaderFormatStyle.Normal.BackColor = BackColor;
+                    objectListView.HeaderFormatStyle.Hot.BackColor = BackColorHover;
+                    objectListView.HeaderFormatStyle.Pressed.BackColor = BackColorActive;
+                } else
+                {
+                    BrightIdeasSoftware.HeaderFormatStyle headerStyle = new BrightIdeasSoftware.HeaderFormatStyle();
+
+                    headerStyle.SetForeColor(ForeColor);
+                    headerStyle.Normal.BackColor = BackColor;
+                    
+                    //TODO: These colors do not show up
+                    //headerStyle.Hot.BackColor = BackColorHover;
+                    //headerStyle.Pressed.BackColor = BackColorActive;
+
+                    objectListView.HeaderFormatStyle = headerStyle;
+                }
+                objectListView.HeaderUsesThemes = false;
             }
 
         }
