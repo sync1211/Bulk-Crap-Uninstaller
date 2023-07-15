@@ -3,10 +3,10 @@
 #define MyAppPublisher "Marcin Szeniak"
 #define MyAppURL "https://github.com/Klocman/Bulk-Crap-Uninstaller"
 #define MyAppExeName "BCUninstaller.exe"
-#define MyAppCopyright "Copyright 2018 Marcin Szeniak"
+#define MyAppCopyright "Copyright 2023 Marcin Szeniak"
 
-#define MyAppVersion "5.1.0.0"
-#define MyAppVersionShort "5.1"
+#define MyAppVersion "5.6.0.0"
+#define MyAppVersionShort "5.6"
 
 #define InputDir "..\bin\publish"
 
@@ -39,14 +39,14 @@ OutputBaseFilename={#MyAppNameShort}_{#MyAppVersionShort}_setup
 Compression=lzma2/ultra
 SolidCompression=yes
 LZMAUseSeparateProcess=yes
-LZMADictionarySize=54857
+LZMADictionarySize=548570
 LZMANumFastBytes=273
 LZMANumBlockThreads=8
 
 PrivilegesRequired=admin
 ;x86 x64 ia64
-ArchitecturesAllowed=x86 x64
-ArchitecturesInstallIn64BitMode=x64 ia64
+ArchitecturesAllowed=x86 x64 arm64
+ArchitecturesInstallIn64BitMode=x64 ia64 arm64
 
 VersionInfoCompany={#MyAppPublisher}
 ;VersionInfoDescription=desc
@@ -68,6 +68,7 @@ Name: "nl"; MessagesFile: "compiler:Languages\Dutch.isl"
 Name: "es"; MessagesFile: "compiler:Languages\Spanish.isl"
 Name: "bpt"; MessagesFile: "compiler:Languages\BrazilianPortuguese.isl"
 Name: "ru"; MessagesFile: "compiler:Languages\Russian.isl"
+Name: "it"; MessagesFile: "compiler:Languages\Italian.isl"
 
 [Components]
 Name: "main"; Description: "{cm:MainFiles}"; Types: full compact custom; Flags: fixed
@@ -80,12 +81,8 @@ Source: "{#InputDir}\BCU_manual.html";          DestDir: "{app}"; Components: ma
 ; Need to do this to separate the language resource folders from main app files
 Source: "{#InputDir}\win-x64\*";                DestDir: "{app}\win-x64";           Components: main; Flags: ignoreversion; Excludes: "CleanLogs.bat"; Check: Is64BitInstallMode or IsPortable
 Source: "{#InputDir}\win-x64\Resources\*";      DestDir: "{app}\win-x64\Resources"; Components: main; Flags: ignoreversion recursesubdirs;             Check: Is64BitInstallMode or IsPortable
-Source: "{#InputDir}\win-x64\runtimes\*";       DestDir: "{app}\win-x64\runtimes";  Components: main; Flags: ignoreversion recursesubdirs;             Check: Is64BitInstallMode or IsPortable
-Source: "{#InputDir}\win-x64\ref\*";            DestDir: "{app}\win-x64\ref";       Components: main; Flags: ignoreversion recursesubdirs;             Check: Is64BitInstallMode or IsPortable
 Source: "{#InputDir}\win-x86\*";                DestDir: "{app}\win-x86";           Components: main; Flags: ignoreversion; Excludes: "CleanLogs.bat"; Check: not Is64BitInstallMode or IsPortable
 Source: "{#InputDir}\win-x86\Resources\*";      DestDir: "{app}\win-x86\Resources"; Components: main; Flags: ignoreversion recursesubdirs;             Check: not Is64BitInstallMode or IsPortable
-Source: "{#InputDir}\win-x86\runtimes\*";       DestDir: "{app}\win-x86\runtimes";  Components: main; Flags: ignoreversion recursesubdirs;             Check: not Is64BitInstallMode or IsPortable
-Source: "{#InputDir}\win-x86\ref\*";            DestDir: "{app}\win-x86\ref";       Components: main; Flags: ignoreversion recursesubdirs;             Check: not Is64BitInstallMode or IsPortable
 
 ; If installing languages, copy everything
 Source: "{#InputDir}\win-x64\*";                DestDir: "{app}\win-x64"; Components: lang; Flags: ignoreversion recursesubdirs; Excludes: "CleanLogs.bat"; Check: Is64BitInstallMode or IsPortable
@@ -109,6 +106,7 @@ nl.MainFiles=Hoofdbestanden
 es.MainFiles=Archivos principales
 bpt.MainFiles=Arquivos principais
 ru.MainFiles=Основные файлы программы
+it.MainFiles=File programma
 
 en.ExtraLanguages=Extra Languages
 pl.ExtraLanguages=Dodatkowe języki
@@ -120,3 +118,4 @@ nl.ExtraLanguages=Extra talen
 es.ExtraLanguages=Idiomas adicionales
 bpt.ExtraLanguages=Línguas extras
 ru.ExtraLanguages=Дополнительные языки
+it.ExtraLanguages=Lingue aggiuntive

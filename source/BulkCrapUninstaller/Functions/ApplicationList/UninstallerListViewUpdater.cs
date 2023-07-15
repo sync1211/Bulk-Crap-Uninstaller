@@ -97,8 +97,8 @@ namespace BulkCrapUninstaller.Functions.ApplicationList
             : _listView.SelectedObjects.Count;
 
         public IEnumerable<ApplicationUninstallerEntry> SelectedUninstallers => _listView.ListView.CheckBoxes
-            ? _listView.ListView.GetAllObjectsWithMappedCheckState(CheckState.Checked).Cast<ApplicationUninstallerEntry>().Where(e => AllUninstallers.Contains(e))
-            : _listView.SelectedObjects;
+            ? _listView.ListView.GetAllObjectsWithMappedCheckState(CheckState.Checked).Cast<ApplicationUninstallerEntry>().Where(e => e != null && AllUninstallers.Contains(e))
+            : _listView.SelectedObjects.Where(e => e != null);
 
         public void Dispose()
         {
@@ -185,12 +185,12 @@ namespace BulkCrapUninstaller.Functions.ApplicationList
                 {
                     if (dialog.Error is OperationCanceledException)
                         return;
-                    throw new Exception("Uncaught exception in ListRefreshThread", dialog.Error);
+                    throw new InvalidOperationException("Uncaught exception in ListRefreshThread", dialog.Error);
                 }
 
-                if (CheckIsAppDisposed() || args.CloseReason == CloseReason.WindowsShutDown || 
-                    args.CloseReason == CloseReason.ApplicationExitCall || 
-                    args.CloseReason == CloseReason.FormOwnerClosing || 
+                if (CheckIsAppDisposed() || args.CloseReason == CloseReason.WindowsShutDown ||
+                    args.CloseReason == CloseReason.ApplicationExitCall ||
+                    args.CloseReason == CloseReason.FormOwnerClosing ||
                     args.CloseReason == CloseReason.TaskManagerClosing) return;
 
                 var oldList = _listView.ListView.SmallImageList;
@@ -253,7 +253,7 @@ namespace BulkCrapUninstaller.Functions.ApplicationList
                 if (dialogInterface.Abort)
                     throw new OperationCanceledException();
             });
-            
+
             dialogInterface.SetProgress(progressMax, Localisable.Progress_Finishing, true);
             dialogInterface.SetSubMaximum(2);
             dialogInterface.SetSubProgress(0, string.Empty);
@@ -263,7 +263,7 @@ namespace BulkCrapUninstaller.Functions.ApplicationList
                     x => PathTools.PathsEqual(x.RegistryKeyName, Program.InstalledRegistryKeyName));
 
             AllUninstallers = uninstallerEntries;
-            
+
             dialogInterface.SetSubProgress(1, Localisable.Progress_Finishing_Icons);
             try
             {

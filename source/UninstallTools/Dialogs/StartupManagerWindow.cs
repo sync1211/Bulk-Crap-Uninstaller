@@ -80,7 +80,7 @@ namespace UninstallTools.Dialogs
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Trace.WriteLine(e);
             }
             return window;
         }

@@ -63,11 +63,11 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>228, 24</value>
+    <value>260, 30</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="splitContainer1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="advancedFilters1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -76,10 +76,10 @@
     <value>0, 0</value>
   </data>
   <data name="advancedFilters1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 3, 5, 3</value>
+    <value>6, 4, 6, 4</value>
   </data>
   <data name="advancedFilters1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 598</value>
+    <value>417, 799</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="advancedFilters1.TabIndex" type="System.Int32, mscorlib">
@@ -98,7 +98,7 @@
     <value>0</value>
   </data>
   <data name="splitContainer1.Panel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 2</value>
+    <value>0, 0, 0, 3</value>
   </data>
   <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
     <value>splitContainer1.Panel1</value>
@@ -122,7 +122,7 @@
     <value>0, 30</value>
   </data>
   <data name="splitContainerListAndMap.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="splitContainerListAndMap.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
@@ -236,10 +236,10 @@
     <value>0, 0</value>
   </data>
   <data name="uninstallerObjectListView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="uninstallerObjectListView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>474, 342</value>
+    <value>491, 692</value>
   </data>
   <data name="uninstallerObjectListView.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -263,10 +263,10 @@
     <value>0, 0</value>
   </data>
   <data name="listViewPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="listViewPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>476, 344</value>
+    <value>493, 694</value>
   </data>
   <data name="listViewPanel.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -302,10 +302,10 @@
     <value>0, 0</value>
   </data>
   <data name="treeMap1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 3, 5, 3</value>
+    <value>6, 4, 6, 4</value>
   </data>
   <data name="treeMap1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>476, 199</value>
+    <value>493, 49</value>
   </data>
   <data name="treeMap1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -335,13 +335,13 @@
     <value>1</value>
   </data>
   <data name="splitContainerListAndMap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>476, 548</value>
+    <value>493, 750</value>
   </data>
   <data name="splitContainerListAndMap.SplitterDistance" type="System.Int32, mscorlib">
-    <value>344</value>
+    <value>694</value>
   </data>
   <data name="splitContainerListAndMap.SplitterWidth" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="splitContainerListAndMap.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -367,7 +367,7 @@
   <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALhSURBVGhD7ZlPhFZRGMa/T5EkzSKSpChGEmkRLUpajhYt
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAALhSURBVGhD7ZlPhFZRGMa/T5EkzSKSpChGEmkRLUpajhYt
         iqLFGIZK2yiSlAzTLlpFi5hNtGiRFEWLDLNNtJo2ERkzUZLkq99T93Kd7517zz3n3Jm53IefM6753nOf
         e8/7nj+316lTp1ZqFDb9/7PdOgNvoPVmZOQPrLqZDbAPTsI4TMBZOAFboUq5kZU3MxgMttNchzn4CfmN
         WLyHaZBZS0UjYkXMKDFn4DcUO/flGRyFolwj4iKkF29gI81dqHr6vjyCfNhZRi5Bcu2Ad+B2Fss8HIDm
@@ -387,7 +387,7 @@
     <value>Magenta</value>
   </data>
   <data name="toolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 26</value>
+    <value>160, 26</value>
   </data>
   <data name="toolStripButton1.Text" xml:space="preserve">
     <value>Reload uninstallers</value>
@@ -398,7 +398,7 @@
   <data name="toolStripButtonSelAll.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHrSURBVGhD7ZahSgVREIYXDCZBEBHxAcRiMBiMNpvFF7DZ
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHrSURBVGhD7ZahSgVREIYXDCZBEBHxAcRiMBiMNpvFF7DZ
         RDD4ACJYfACjQTAIRoNBm0Uf4QaDzaIYDKv/r3vkMMzu3fXMmOaDj13O3Ts/s3vvnK2CIAiCIAiCoSzA
         xZ9TGz7/0RNY1XU9hcMjfMb5Ctcs0AI9vIATcBLeNmv0Ba7DYvIwL28gG2Aj581a7iucg0XIotY+wGlI
         jqB2zR4sRits5Qj/gXkcyS7UrjmFJmjFrdmCNZQ5d5A/ORNkcWrJGnyHMmMEZ6AZMoBawX2CU0nW5597
@@ -413,7 +413,7 @@
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonSelAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 26</value>
+    <value>29, 26</value>
   </data>
   <data name="toolStripButtonSelAll.Text" xml:space="preserve">
     <value>Select all</value>
@@ -421,7 +421,7 @@
   <data name="toolStripButtonSelNone.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACBSURBVGhD7c2xDcAwAMOw/P90+oBHgx1iAZp51lprrfVo
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACBSURBVGhD7c2xDcAwAMOw/P90+oBHgx1iAZp51lprrfVo
         96frJURcLyHiegkR10uIuJ5AhEEQYRBEGAQRBkGEQRBhEEQYBBEGQYRBEGEQRBgEEQZBhEEQYRBEGAQR
         BkGEQRBhEEQYBBFGRMT1EiKulxBxvYSI6yVEvNZaa63HOucDln3yHBqFG0wAAAAASUVORK5CYII=
 </value>
@@ -430,7 +430,7 @@
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonSelNone.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 26</value>
+    <value>29, 26</value>
   </data>
   <data name="toolStripButtonSelNone.Text" xml:space="preserve">
     <value>Deselect all</value>
@@ -438,7 +438,7 @@
   <data name="toolStripButtonSelInv.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKSSURBVGhD7Zk/aBRBGMUPFEREEMRKAnZWNqLWYiFomTpV
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAKSSURBVGhD7Zk/aBRBGMUPFEREEMRKAnZWNqLWYiFomTpV
         CFYpbAQVEWwVFG0trWwEEYsUKULqkCIgEuwUBIukiIWInL53uS+8GWd2Zu9mLqvsD37sZWfv++axf26W
         DHp6/j/mxtsq/K7oEM5Dcg3+gLdHf1UgNIFS3oLkAtyFtv85PAKLoo1L+gCSs/Az9McfwaJo8aIMh8OT
         2GxC7UG/QQYsijYoyTG4ArU+/YmAV7AtjjYpyUuotc0FWAVtUoqHUOuaT2E1tJEDLoGL2KzC06MdeSxC
@@ -456,7 +456,7 @@
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonSelInv.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 26</value>
+    <value>29, 26</value>
   </data>
   <data name="toolStripButtonSelInv.Text" xml:space="preserve">
     <value>Invert selection</value>
@@ -464,13 +464,13 @@
   <data name="toolStripSeparator23.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 29</value>
   </data>
-  <data name="toolStripButtonNuke.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+  <data name="toolStripButtonTarget.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
-  <data name="toolStripButtonNuke.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 26</value>
+  <data name="toolStripButtonTarget.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 26</value>
   </data>
-  <data name="toolStripButtonNuke.Text" xml:space="preserve">
+  <data name="toolStripButtonTarget.Text" xml:space="preserve">
     <value>Uninstall by window, directory, or file...</value>
   </data>
   <data name="toolStripSeparator21.Size" type="System.Drawing.Size, System.Drawing">
@@ -479,7 +479,7 @@
   <data name="toolStripButtonUninstall.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFKSURBVGhD7dfBrcIwEEXRdMCSBqiBIqiFLtjBmjVV0AT1
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFKSURBVGhD7dfBrcIwEEXRdMCSBqiBIqiFLtjBmjVV0AT1
         sESBiUQi84iNx56MbTRXekJC+uDzI4joLMuyrLG+77f0cKXdaLvhuaZyAE9YG6AAAFcniAHA1QHKAODK
         gAQBOB3QggDcMiBFAE4GVBCAywLtaXMvWnJnGr9/uSJTzX9GsOa/tbAFQToATBBUBLB6P05lgHyAr/cQ
         yznsg3ahbWgfMUA+wJp2ot1pslcpcLgUUAwg9m/iYvx3Y0ApAFwaiAEZ5wXNxAGMU7sy40IgfQCWCSoP
@@ -492,7 +492,7 @@
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonUninstall.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 26</value>
+    <value>92, 26</value>
   </data>
   <data name="toolStripButtonUninstall.Text" xml:space="preserve">
     <value>Uninstall</value>
@@ -500,7 +500,7 @@
   <data name="toolStripButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIySURBVGhD7ZcxLwRBGIYvUSgUCoVChIRERCMKiUKi9lv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIySURBVGhD7ZcxLwRBGIYvUSgUCoVChIRERCMKiUKi9lv8
         BJ1SrRatTkThLyj8AIVKKSiUsrzv2e/y+W5mbnZvdmdP9kmeDG72Zh97u7c76Onp6ekRiqLYx3AHH+Ax
         /zZTqIBv42wEBQKs3QyqEGDtRtAUAdY8QQkDrO0ENRhgbSaoxQBrmqCMAdapgk6g601zegGr81+OyIiZ
         P0csM3/VsjQY1E6AJWFQloDFchwxRZAvYGyNZKid/YKXcBP+oUKQL2AZnsNPmPYoBXauTlBMQOw2caid
@@ -517,7 +517,7 @@
     <value>Magenta</value>
   </data>
   <data name="toolStripButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 26</value>
+    <value>141, 26</value>
   </data>
   <data name="toolStripButton2.Text" xml:space="preserve">
     <value>Uninstall quietly</value>
@@ -526,7 +526,7 @@
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonModify.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 26</value>
+    <value>29, 26</value>
   </data>
   <data name="toolStripButtonModify.Text" xml:space="preserve">
     <value>Modify</value>
@@ -538,7 +538,7 @@
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonProperties.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 26</value>
+    <value>102, 26</value>
   </data>
   <data name="toolStripButtonProperties.Text" xml:space="preserve">
     <value>Properties</value>
@@ -550,7 +550,7 @@
     <value>Magenta</value>
   </data>
   <data name="toolStripButton7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 26</value>
+    <value>29, 26</value>
   </data>
   <data name="toolStripButton7.Text" xml:space="preserve">
     <value>Settings</value>
@@ -559,7 +559,7 @@
     <value>Magenta</value>
   </data>
   <data name="toolStripButton8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 26</value>
+    <value>29, 26</value>
   </data>
   <data name="toolStripButton8.Text" xml:space="preserve">
     <value>Help</value>
@@ -571,7 +571,7 @@
     <value>0, 0, 0, 1</value>
   </data>
   <data name="toolStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>476, 30</value>
+    <value>493, 30</value>
   </data>
   <data name="toolStrip.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -589,13 +589,13 @@
     <value>1</value>
   </data>
   <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>115, 17</value>
+    <value>132, 17</value>
   </metadata>
   <data name="toolStripLabelStatus.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="toolStripLabelStatus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 17</value>
+    <value>174, 16</value>
   </data>
   <data name="toolStripLabelStatus.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -607,7 +607,7 @@
     <value>No</value>
   </data>
   <data name="toolStripLabelSize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 17</value>
+    <value>70, 16</value>
   </data>
   <data name="toolStripLabelSize.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -616,19 +616,19 @@
     <value>False</value>
   </data>
   <data name="toolStripLabelTotal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 17</value>
+    <value>230, 16</value>
   </data>
   <data name="toolStripLabelTotal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
   <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 578</value>
+    <value>0, 780</value>
   </data>
   <data name="statusStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>1, 0, 16, 0</value>
+    <value>1, 0, 18, 0</value>
   </data>
   <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>476, 22</value>
+    <value>493, 22</value>
   </data>
   <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -658,13 +658,13 @@
     <value>1</value>
   </data>
   <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>803, 600</value>
+    <value>918, 802</value>
   </data>
   <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
-    <value>320</value>
+    <value>417</value>
   </data>
   <data name="splitContainer1.SplitterWidth" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -694,16 +694,16 @@
     <value>Top</value>
   </data>
   <data name="propertiesSidebar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 213</value>
+    <value>8, 249</value>
   </data>
   <data name="propertiesSidebar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 3, 5, 3</value>
+    <value>6, 4, 6, 4</value>
   </data>
   <data name="propertiesSidebar.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>117, 115</value>
+    <value>134, 153</value>
   </data>
   <data name="propertiesSidebar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 369</value>
+    <value>243, 502</value>
   </data>
   <data name="propertiesSidebar.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -736,13 +736,13 @@
     <value>NoControl</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 568</value>
+    <value>8, 762</value>
   </data>
   <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 25</value>
+    <value>181, 31</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -775,13 +775,13 @@
     <value>NoControl</value>
   </data>
   <data name="buttonAdvFiltering.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 175</value>
+    <value>10, 198</value>
   </data>
   <data name="buttonAdvFiltering.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="buttonAdvFiltering.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 27</value>
+    <value>223, 36</value>
   </data>
   <data name="buttonAdvFiltering.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -811,16 +811,16 @@
     <value>Top</value>
   </data>
   <data name="filterEditor1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 21</value>
+    <value>10, 27</value>
   </data>
   <data name="filterEditor1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="filterEditor1.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>117, 0</value>
+    <value>134, 0</value>
   </data>
   <data name="filterEditor1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 154</value>
+    <value>223, 171</value>
   </data>
   <data name="filterEditor1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -841,16 +841,16 @@
     <value>Top</value>
   </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 2</value>
+    <value>8, 3</value>
   </data>
   <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>9, 5, 9, 9</value>
+    <value>10, 7, 10, 12</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 211</value>
+    <value>243, 246</value>
   </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -874,16 +874,16 @@
     <value>Left</value>
   </data>
   <data name="settingsSidebarPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 24</value>
+    <value>2, 30</value>
   </data>
   <data name="settingsSidebarPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="settingsSidebarPanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 2, 6, 7</value>
+    <value>8, 3, 7, 9</value>
   </data>
   <data name="settingsSidebarPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>226, 600</value>
+    <value>258, 802</value>
   </data>
   <data name="settingsSidebarPanel.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -901,7 +901,7 @@
     <value>2</value>
   </data>
   <metadata name="uninstallListContextMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>231, 17</value>
+    <value>269, 17</value>
   </metadata>
   <data name="uninstallContextMenuStripItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -917,7 +917,7 @@
 </value>
   </data>
   <data name="uninstallContextMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
+    <value>244, 26</value>
   </data>
   <data name="uninstallContextMenuStripItem.Text" xml:space="preserve">
     <value>&amp;Uninstall</value>
@@ -941,103 +941,103 @@
 </value>
   </data>
   <data name="quietUninstallContextMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
+    <value>244, 26</value>
   </data>
   <data name="quietUninstallContextMenuStripItem.Text" xml:space="preserve">
     <value>Uninstall &amp;quietly</value>
   </data>
   <data name="manualUninstallToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
+    <value>244, 26</value>
   </data>
   <data name="manualUninstallToolStripMenuItem1.Text" xml:space="preserve">
     <value>Uninstall &amp;manually</value>
   </data>
   <data name="msiInstallContextMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 22</value>
+    <value>244, 26</value>
   </data>
   <data name="msiInstallContextMenuStripItem.Text" xml:space="preserve">
     <value>&amp;Install or configure (/I)</value>
   </data>
   <data name="msiUninstallContextMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 22</value>
+    <value>244, 26</value>
   </data>
   <data name="msiUninstallContextMenuStripItem.Text" xml:space="preserve">
     <value>&amp;Uninstall (/X)</value>
   </data>
   <data name="msiQuietUninstallContextMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 22</value>
+    <value>244, 26</value>
   </data>
   <data name="msiQuietUninstallContextMenuStripItem.Text" xml:space="preserve">
     <value>&amp;Quiet uninstall (/X /qb)</value>
   </data>
   <data name="uninstallUsingMsiExecContextMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
+    <value>244, 26</value>
   </data>
   <data name="uninstallUsingMsiExecContextMenuStripItem.Text" xml:space="preserve">
     <value>Uninstall using &amp;MsiExec...</value>
   </data>
   <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 6</value>
+    <value>241, 6</value>
   </data>
   <data name="excludeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
+    <value>244, 26</value>
   </data>
   <data name="excludeToolStripMenuItem.Text" xml:space="preserve">
     <value>Exclude</value>
   </data>
   <data name="includeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
+    <value>244, 26</value>
   </data>
   <data name="includeToolStripMenuItem.Text" xml:space="preserve">
     <value>Include</value>
   </data>
   <data name="toolStripSeparatorFiltering.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 6</value>
+    <value>241, 6</value>
   </data>
   <data name="runToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
+    <value>244, 26</value>
   </data>
   <data name="runToolStripMenuItem.Text" xml:space="preserve">
     <value>Run...</value>
   </data>
   <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 6</value>
+    <value>241, 6</value>
   </data>
   <data name="toolStripMenuItem9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>229, 26</value>
   </data>
   <data name="toolStripMenuItem9.Text" xml:space="preserve">
     <value>Advanced...</value>
   </data>
   <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 6</value>
+    <value>226, 6</value>
   </data>
   <data name="fullInformationCopyContextMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>229, 26</value>
   </data>
   <data name="fullInformationCopyContextMenuStripItem.Text" xml:space="preserve">
     <value>&amp;Full information</value>
   </data>
   <data name="programNameCopyContextMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>229, 26</value>
   </data>
   <data name="programNameCopyContextMenuStripItem.Text" xml:space="preserve">
     <value>Program name</value>
   </data>
   <data name="gUIDProductCodeCopyContextMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>229, 26</value>
   </data>
   <data name="gUIDProductCodeCopyContextMenuStripItem.Text" xml:space="preserve">
     <value>Product code / GUID</value>
   </data>
   <data name="fullRegistryPathCopyContextMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>229, 26</value>
   </data>
   <data name="fullRegistryPathCopyContextMenuStripItem.Text" xml:space="preserve">
     <value>Full registry path</value>
   </data>
   <data name="uninstallStringCopyContextMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>229, 26</value>
   </data>
   <data name="uninstallStringCopyContextMenuStripItem.Text" xml:space="preserve">
     <value>Uninstall string</value>
@@ -1057,40 +1057,40 @@
 </value>
   </data>
   <data name="copyToClipboardContextMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
+    <value>244, 26</value>
   </data>
   <data name="copyToClipboardContextMenuStripItem.Text" xml:space="preserve">
     <value>&amp;Copy to Clipboard...</value>
   </data>
   <data name="deleteRegistryEntryContextMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
+    <value>244, 26</value>
   </data>
   <data name="deleteRegistryEntryContextMenuStripItem.Text" xml:space="preserve">
     <value>&amp;Delete registry entry</value>
   </data>
   <data name="renameContextMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
+    <value>244, 26</value>
   </data>
   <data name="renameContextMenuStripItem.Text" xml:space="preserve">
     <value>&amp;Rename...</value>
   </data>
   <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 6</value>
+    <value>241, 6</value>
   </data>
   <data name="installLocationOpenInExplorerContextMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 22</value>
+    <value>220, 26</value>
   </data>
   <data name="installLocationOpenInExplorerContextMenuStripItem.Text" xml:space="preserve">
     <value>&amp;Install location</value>
   </data>
   <data name="uninstallerLocationOpenInExplorerContextMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 22</value>
+    <value>220, 26</value>
   </data>
   <data name="uninstallerLocationOpenInExplorerContextMenuStripItem.Text" xml:space="preserve">
     <value>&amp;Uninstaller location</value>
   </data>
   <data name="sourceLocationOpenInExplorerContextMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 22</value>
+    <value>220, 26</value>
   </data>
   <data name="sourceLocationOpenInExplorerContextMenuStripItem.Text" xml:space="preserve">
     <value>&amp;Source location</value>
@@ -1111,58 +1111,58 @@
 </value>
   </data>
   <data name="openInExplorerContextMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
+    <value>244, 26</value>
   </data>
   <data name="openInExplorerContextMenuStripItem.Text" xml:space="preserve">
     <value>Open in &amp;explorer...</value>
   </data>
   <data name="openWebPageContextMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
+    <value>244, 26</value>
   </data>
   <data name="openWebPageContextMenuStripItem.Text" xml:space="preserve">
     <value>Open &amp;Web Page</value>
   </data>
   <data name="toolStripMenuItem15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 22</value>
+    <value>204, 26</value>
   </data>
   <data name="toolStripMenuItem15.Text" xml:space="preserve">
     <value>Google</value>
   </data>
   <data name="toolStripMenuItem16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 22</value>
+    <value>204, 26</value>
   </data>
   <data name="toolStripMenuItem16.Text" xml:space="preserve">
     <value>AlternativeTo.net</value>
   </data>
   <data name="slantcoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 22</value>
+    <value>204, 26</value>
   </data>
   <data name="slantcoToolStripMenuItem.Text" xml:space="preserve">
     <value>Slant.co</value>
   </data>
   <data name="toolStripSeparator26.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 6</value>
+    <value>201, 6</value>
   </data>
   <data name="fossHubcomToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 22</value>
+    <value>204, 26</value>
   </data>
   <data name="fossHubcomToolStripMenuItem.Text" xml:space="preserve">
     <value>FossHub.com</value>
   </data>
   <data name="sourceForgecomToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 22</value>
+    <value>204, 26</value>
   </data>
   <data name="sourceForgecomToolStripMenuItem.Text" xml:space="preserve">
     <value>SourceForge.net</value>
   </data>
   <data name="gitHubcomToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 22</value>
+    <value>204, 26</value>
   </data>
   <data name="gitHubcomToolStripMenuItem.Text" xml:space="preserve">
     <value>GitHub.com</value>
   </data>
   <data name="fileHippocomToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 22</value>
+    <value>204, 26</value>
   </data>
   <data name="fileHippocomToolStripMenuItem.Text" xml:space="preserve">
     <value>FileHippo.com</value>
@@ -1187,31 +1187,31 @@
 </value>
   </data>
   <data name="lookUpOnlineToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
+    <value>244, 26</value>
   </data>
   <data name="lookUpOnlineToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Search online</value>
   </data>
   <data name="rateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
+    <value>244, 26</value>
   </data>
   <data name="rateToolStripMenuItem.Text" xml:space="preserve">
     <value>Rate...</value>
   </data>
   <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 6</value>
+    <value>241, 6</value>
   </data>
   <data name="propertiesContextMenuStripItem.Font" type="System.Drawing.Font, System.Drawing">
     <value>Tahoma, 8.25pt, style=Bold</value>
   </data>
   <data name="propertiesContextMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
+    <value>244, 26</value>
   </data>
   <data name="propertiesContextMenuStripItem.Text" xml:space="preserve">
     <value>&amp;Properties</value>
   </data>
   <data name="uninstallListContextMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 364</value>
+    <value>245, 424</value>
   </data>
   <data name="&gt;&gt;uninstallListContextMenuStrip.Name" xml:space="preserve">
     <value>uninstallListContextMenuStrip</value>
@@ -1220,7 +1220,7 @@
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <metadata name="exportDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>446, 17</value>
+    <value>530, 17</value>
   </metadata>
   <data name="exportDialog.Filter" xml:space="preserve">
     <value>XML files|*.xml</value>
@@ -1229,7 +1229,7 @@
     <value>Export selected uninstaller properties</value>
   </data>
   <metadata name="menuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>568, 17</value>
+    <value>675, 17</value>
   </metadata>
   <data name="reloadUninstallersToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1253,13 +1253,13 @@
 </value>
   </data>
   <data name="reloadUninstallersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>331, 22</value>
+    <value>414, 26</value>
   </data>
   <data name="reloadUninstallersToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Reload uninstallers</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>328, 6</value>
+    <value>411, 6</value>
   </data>
   <data name="loadUninstallerListToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1277,166 +1277,166 @@
 </value>
   </data>
   <data name="loadUninstallerListToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>331, 22</value>
+    <value>414, 26</value>
   </data>
   <data name="loadUninstallerListToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Open Uninstall List...</value>
   </data>
   <data name="toolStripSeparator30.Size" type="System.Drawing.Size, System.Drawing">
-    <value>328, 6</value>
+    <value>411, 6</value>
   </data>
   <data name="exportSelectedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>331, 22</value>
+    <value>414, 26</value>
   </data>
   <data name="exportSelectedToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Export data of selected uninstallers...</value>
   </data>
   <data name="exportToABatchUninstallScriptToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>331, 22</value>
+    <value>414, 26</value>
   </data>
   <data name="exportToABatchUninstallScriptToolStripMenuItem.Text" xml:space="preserve">
     <value>Export to a batch uninstall script...</value>
   </data>
   <data name="exportStoreAppsToPowerShellRemoveScriptToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>331, 22</value>
+    <value>414, 26</value>
   </data>
   <data name="exportStoreAppsToPowerShellRemoveScriptToolStripMenuItem.Text" xml:space="preserve">
     <value>Create PowerShell remove script for Store Apps...</value>
   </data>
   <data name="toolStripSeparator10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>328, 6</value>
+    <value>411, 6</value>
   </data>
   <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>331, 22</value>
+    <value>414, 26</value>
   </data>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>E&amp;xit</value>
   </data>
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
+    <value>46, 24</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;File</value>
   </data>
   <data name="showColorLegendToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 22</value>
+    <value>236, 26</value>
   </data>
   <data name="showColorLegendToolStripMenuItem.Text" xml:space="preserve">
     <value>Show color legend</value>
   </data>
   <data name="displayToolbarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 22</value>
+    <value>236, 26</value>
   </data>
   <data name="displayToolbarToolStripMenuItem.Text" xml:space="preserve">
     <value>Show &amp;toolbar</value>
   </data>
   <data name="showTreemapToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 22</value>
+    <value>236, 26</value>
   </data>
   <data name="showTreemapToolStripMenuItem.Text" xml:space="preserve">
     <value>Show tree&amp;map</value>
   </data>
   <data name="displaySettingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 22</value>
+    <value>236, 26</value>
   </data>
   <data name="displaySettingsToolStripMenuItem.Text" xml:space="preserve">
     <value>Show &amp;settings sidebar</value>
   </data>
   <data name="displayStatusbarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 22</value>
+    <value>236, 26</value>
   </data>
   <data name="displayStatusbarToolStripMenuItem.Text" xml:space="preserve">
     <value>Show status &amp;bar</value>
   </data>
   <data name="toolStripSeparator12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 6</value>
+    <value>233, 6</value>
   </data>
   <data name="useSystemThemeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 22</value>
+    <value>236, 26</value>
   </data>
   <data name="useSystemThemeToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Use system theme</value>
   </data>
   <data name="viewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
+    <value>55, 24</value>
   </data>
   <data name="viewToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;View</value>
   </data>
   <data name="advancedApplicationsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
+    <value>266, 26</value>
   </data>
   <data name="advancedApplicationsToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Default filters</value>
   </data>
   <data name="basicApplicationsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
+    <value>266, 26</value>
   </data>
   <data name="basicApplicationsToolStripMenuItem.Text" xml:space="preserve">
     <value>Only &amp;basic applications</value>
   </data>
   <data name="systemComponentsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
+    <value>266, 26</value>
   </data>
   <data name="systemComponentsToolStripMenuItem.Text" xml:space="preserve">
     <value>Only system components</value>
   </data>
   <data name="everythingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
+    <value>266, 26</value>
   </data>
   <data name="everythingToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Everything</value>
   </data>
   <data name="toolStripSeparator20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 6</value>
+    <value>263, 6</value>
   </data>
   <data name="automaticallyStartedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
+    <value>266, 26</value>
   </data>
   <data name="automaticallyStartedToolStripMenuItem.Text" xml:space="preserve">
     <value>Only started automatically</value>
   </data>
   <data name="onlyWebBrowsersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
+    <value>266, 26</value>
   </data>
   <data name="onlyWebBrowsersToolStripMenuItem.Text" xml:space="preserve">
     <value>Only web browsers</value>
   </data>
   <data name="toolStripSeparator31.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 6</value>
+    <value>263, 6</value>
   </data>
   <data name="viewTweaksToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
+    <value>266, 26</value>
   </data>
   <data name="viewTweaksToolStripMenuItem.Text" xml:space="preserve">
     <value>View Tweaks</value>
   </data>
   <data name="viewUnregisteredToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
+    <value>266, 26</value>
   </data>
   <data name="viewUnregisteredToolStripMenuItem.Text" xml:space="preserve">
     <value>View Unregistered</value>
   </data>
   <data name="viewUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
+    <value>266, 26</value>
   </data>
   <data name="viewUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>View Updates</value>
   </data>
   <data name="viewWindowsFeaturesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
+    <value>266, 26</value>
   </data>
   <data name="viewWindowsFeaturesToolStripMenuItem.Text" xml:space="preserve">
     <value>View Windows Features</value>
   </data>
   <data name="viewWindowsStoreAppsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
+    <value>266, 26</value>
   </data>
   <data name="viewWindowsStoreAppsToolStripMenuItem.Text" xml:space="preserve">
     <value>View Windows Store Apps</value>
   </data>
   <data name="toolStripSeparator28.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 6</value>
+    <value>263, 6</value>
   </data>
   <data name="searchToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1456,13 +1456,13 @@
 </value>
   </data>
   <data name="searchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
+    <value>266, 26</value>
   </data>
   <data name="searchToolStripMenuItem.Text" xml:space="preserve">
     <value>Search...</value>
   </data>
   <data name="filteringToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 20</value>
+    <value>101, 24</value>
   </data>
   <data name="filteringToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Quick filters</value>
@@ -1481,7 +1481,7 @@
 </value>
   </data>
   <data name="uninstallToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>223, 26</value>
   </data>
   <data name="uninstallToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Uninstall</value>
@@ -1505,55 +1505,55 @@
 </value>
   </data>
   <data name="quietUninstallToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>223, 26</value>
   </data>
   <data name="quietUninstallToolStripMenuItem.Text" xml:space="preserve">
     <value>Uninstall &amp;quietly</value>
   </data>
   <data name="modifyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>223, 26</value>
   </data>
   <data name="modifyToolStripMenuItem.Text" xml:space="preserve">
     <value>Modify</value>
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 6</value>
+    <value>220, 6</value>
   </data>
   <data name="advancedClipCopyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>229, 26</value>
   </data>
   <data name="advancedClipCopyToolStripMenuItem.Text" xml:space="preserve">
     <value>Advanced...</value>
   </data>
   <data name="toolStripSeparator11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 6</value>
+    <value>226, 6</value>
   </data>
   <data name="copyFullInformationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>229, 26</value>
   </data>
   <data name="copyFullInformationToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Full information</value>
   </data>
   <data name="toolStripMenuItem10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>229, 26</value>
   </data>
   <data name="toolStripMenuItem10.Text" xml:space="preserve">
     <value>Program name</value>
   </data>
   <data name="toolStripMenuItem11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>229, 26</value>
   </data>
   <data name="toolStripMenuItem11.Text" xml:space="preserve">
     <value>Product code / GUID</value>
   </data>
   <data name="toolStripMenuItem12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>229, 26</value>
   </data>
   <data name="toolStripMenuItem12.Text" xml:space="preserve">
     <value>Full registry path</value>
   </data>
   <data name="toolStripMenuItem13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>229, 26</value>
   </data>
   <data name="toolStripMenuItem13.Text" xml:space="preserve">
     <value>Uninstall string</value>
@@ -1573,25 +1573,25 @@
 </value>
   </data>
   <data name="toolStripMenuItem8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>223, 26</value>
   </data>
   <data name="toolStripMenuItem8.Text" xml:space="preserve">
     <value>&amp;Copy to Clipboard...</value>
   </data>
   <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 22</value>
+    <value>220, 26</value>
   </data>
   <data name="toolStripMenuItem5.Text" xml:space="preserve">
     <value>&amp;Install location</value>
   </data>
   <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 22</value>
+    <value>220, 26</value>
   </data>
   <data name="toolStripMenuItem6.Text" xml:space="preserve">
     <value>&amp;Uninstaller location</value>
   </data>
   <data name="toolStripMenuItem7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 22</value>
+    <value>220, 26</value>
   </data>
   <data name="toolStripMenuItem7.Text" xml:space="preserve">
     <value>&amp;Source location</value>
@@ -1612,58 +1612,58 @@
 </value>
   </data>
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>223, 26</value>
   </data>
   <data name="toolStripMenuItem1.Text" xml:space="preserve">
     <value>Open in &amp;explorer...</value>
   </data>
   <data name="toolStripMenuItem14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>223, 26</value>
   </data>
   <data name="toolStripMenuItem14.Text" xml:space="preserve">
     <value>Open &amp;Web Page</value>
   </data>
   <data name="googleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
+    <value>199, 26</value>
   </data>
   <data name="googleToolStripMenuItem.Text" xml:space="preserve">
     <value>Google</value>
   </data>
   <data name="alternativeToToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
+    <value>199, 26</value>
   </data>
   <data name="alternativeToToolStripMenuItem.Text" xml:space="preserve">
     <value>AlternativeTo</value>
   </data>
   <data name="slantcoToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
+    <value>199, 26</value>
   </data>
   <data name="slantcoToolStripMenuItem1.Text" xml:space="preserve">
     <value>Slant.co</value>
   </data>
   <data name="toolStripSeparator27.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 6</value>
+    <value>196, 6</value>
   </data>
   <data name="toolStripMenuItem17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
+    <value>199, 26</value>
   </data>
   <data name="toolStripMenuItem17.Text" xml:space="preserve">
     <value>FossHub.com</value>
   </data>
   <data name="toolStripMenuItem18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
+    <value>199, 26</value>
   </data>
   <data name="toolStripMenuItem18.Text" xml:space="preserve">
     <value>SourceForge.net</value>
   </data>
   <data name="toolStripMenuItem20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
+    <value>199, 26</value>
   </data>
   <data name="toolStripMenuItem20.Text" xml:space="preserve">
     <value>GitHub.com</value>
   </data>
   <data name="toolStripMenuItem19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
+    <value>199, 26</value>
   </data>
   <data name="toolStripMenuItem19.Text" xml:space="preserve">
     <value>FileHippo.com</value>
@@ -1688,22 +1688,22 @@
 </value>
   </data>
   <data name="onlineSearchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>223, 26</value>
   </data>
   <data name="onlineSearchToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Search online</value>
   </data>
   <data name="rateToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>223, 26</value>
   </data>
   <data name="rateToolStripMenuItem1.Text" xml:space="preserve">
     <value>Rate...</value>
   </data>
   <data name="toolStripSeparator15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 6</value>
+    <value>220, 6</value>
   </data>
   <data name="propertiesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>223, 26</value>
   </data>
   <data name="propertiesToolStripMenuItem.Text" xml:space="preserve">
     <value>Show &amp;properties</value>
@@ -1712,52 +1712,52 @@
     <value>False</value>
   </data>
   <data name="basicOperationsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 20</value>
+    <value>132, 24</value>
   </data>
   <data name="basicOperationsToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Basic operations</value>
   </data>
   <data name="manualUninstallToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
+    <value>245, 26</value>
   </data>
   <data name="manualUninstallToolStripMenuItem.Text" xml:space="preserve">
     <value>Uninstall &amp;manually</value>
   </data>
   <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 22</value>
+    <value>244, 26</value>
   </data>
   <data name="toolStripMenuItem2.Text" xml:space="preserve">
     <value>&amp;Install or configure (/I)</value>
   </data>
   <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 22</value>
+    <value>244, 26</value>
   </data>
   <data name="toolStripMenuItem3.Text" xml:space="preserve">
     <value>&amp;Uninstall (/X)</value>
   </data>
   <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 22</value>
+    <value>244, 26</value>
   </data>
   <data name="toolStripMenuItem4.Text" xml:space="preserve">
     <value>&amp;Quiet uninstall (/X /qb)</value>
   </data>
   <data name="msiUninstalltoolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
+    <value>245, 26</value>
   </data>
   <data name="msiUninstalltoolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Uninstall using MsiExec</value>
   </data>
   <data name="toolStripSeparator14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 6</value>
+    <value>242, 6</value>
   </data>
   <data name="renameToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
+    <value>245, 26</value>
   </data>
   <data name="renameToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Rename...</value>
   </data>
   <data name="disableAutostartToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
+    <value>245, 26</value>
   </data>
   <data name="disableAutostartToolStripMenuItem.Text" xml:space="preserve">
     <value>Disable autostart</value>
@@ -1774,31 +1774,31 @@
 </value>
   </data>
   <data name="deleteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
+    <value>245, 26</value>
   </data>
   <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Delete registry key</value>
   </data>
   <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 6</value>
+    <value>242, 6</value>
   </data>
   <data name="createBackupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
+    <value>245, 26</value>
   </data>
   <data name="createBackupToolStripMenuItem.Text" xml:space="preserve">
     <value>Create &amp;backup...</value>
   </data>
   <data name="openKeyInRegeditToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
+    <value>245, 26</value>
   </data>
   <data name="openKeyInRegeditToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Open key in Regedit</value>
   </data>
   <data name="toolStripSeparator32.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 6</value>
+    <value>242, 6</value>
   </data>
   <data name="takeOwnershipToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
+    <value>245, 26</value>
   </data>
   <data name="takeOwnershipToolStripMenuItem.Text" xml:space="preserve">
     <value>Take ownership</value>
@@ -1807,7 +1807,7 @@
     <value>False</value>
   </data>
   <data name="advancedOperationsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 20</value>
+    <value>164, 24</value>
   </data>
   <data name="advancedOperationsToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Advanced operations</value>
@@ -1839,13 +1839,13 @@
 </value>
   </data>
   <data name="openStartupManagerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 22</value>
+    <value>348, 26</value>
   </data>
   <data name="openStartupManagerToolStripMenuItem.Text" xml:space="preserve">
     <value>Open Startup Manager</value>
   </data>
   <data name="toolStripSeparator25.Size" type="System.Drawing.Size, System.Drawing">
-    <value>277, 6</value>
+    <value>345, 6</value>
   </data>
   <data name="cleanUpProgramFilesToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1866,70 +1866,70 @@
 </value>
   </data>
   <data name="cleanUpProgramFilesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 22</value>
+    <value>348, 26</value>
   </data>
   <data name="cleanUpProgramFilesToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Clean up "Program Files" folders...</value>
   </data>
-  <data name="nukeMenuItem.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+  <data name="targetMenuItem.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
-  <data name="nukeMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 22</value>
+  <data name="targetMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 26</value>
   </data>
-  <data name="nukeMenuItem.Text" xml:space="preserve">
+  <data name="targetMenuItem.Text" xml:space="preserve">
     <value>Uninstall by window, directory, or file...</value>
   </data>
   <data name="uninstallFromDirectoryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 22</value>
+    <value>348, 26</value>
   </data>
   <data name="uninstallFromDirectoryToolStripMenuItem.Text" xml:space="preserve">
     <value>Uninstall from directory...</value>
   </data>
   <data name="toolStripSeparator13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>277, 6</value>
+    <value>345, 6</value>
   </data>
   <data name="troubleshootUninstallProblemsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 22</value>
+    <value>348, 26</value>
   </data>
   <data name="troubleshootUninstallProblemsToolStripMenuItem.Text" xml:space="preserve">
     <value>Troubleshoot uninstallation problems...</value>
   </data>
   <data name="startDiskCleanupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 22</value>
+    <value>348, 26</value>
   </data>
   <data name="startDiskCleanupToolStripMenuItem.Text" xml:space="preserve">
     <value>Start Disk Cleanup</value>
   </data>
   <data name="tryToInstallNETV35ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 22</value>
+    <value>348, 26</value>
   </data>
   <data name="tryToInstallNETV35ToolStripMenuItem.Text" xml:space="preserve">
     <value>Install .NET v3.5 (add feature)</value>
   </data>
   <data name="createRestorePointToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 22</value>
+    <value>348, 26</value>
   </data>
   <data name="createRestorePointToolStripMenuItem.Text" xml:space="preserve">
     <value>Create a new restore point</value>
   </data>
   <data name="toolStripSeparator29.Size" type="System.Drawing.Size, System.Drawing">
-    <value>277, 6</value>
+    <value>345, 6</value>
   </data>
   <data name="openProgramsAndFeaturesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 22</value>
+    <value>348, 26</value>
   </data>
   <data name="openProgramsAndFeaturesToolStripMenuItem.Text" xml:space="preserve">
     <value>Open "&amp;Programs and Features"</value>
   </data>
   <data name="openSystemRestoreToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 22</value>
+    <value>348, 26</value>
   </data>
   <data name="openSystemRestoreToolStripMenuItem.Text" xml:space="preserve">
     <value>Open "System Recovery"</value>
   </data>
   <data name="toolStripSeparator19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>277, 6</value>
+    <value>345, 6</value>
   </data>
   <data name="settingsToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1954,34 +1954,34 @@
 </value>
   </data>
   <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 22</value>
+    <value>348, 26</value>
   </data>
   <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Settings</value>
   </data>
   <data name="toolsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 20</value>
+    <value>58, 24</value>
   </data>
   <data name="toolsToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Tools</value>
   </data>
   <data name="openHelpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
+    <value>241, 26</value>
   </data>
   <data name="openHelpToolStripMenuItem.Text" xml:space="preserve">
     <value>Open &amp;help</value>
   </data>
   <data name="startSetupWizardToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
+    <value>241, 26</value>
   </data>
   <data name="startSetupWizardToolStripMenuItem.Text" xml:space="preserve">
     <value>Start setup wizard</value>
   </data>
   <data name="toolStripSeparator16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 6</value>
+    <value>238, 6</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
+    <value>241, 26</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>Check for updates</value>
@@ -2001,28 +2001,28 @@
 </value>
   </data>
   <data name="submitFeedbackToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
+    <value>241, 26</value>
   </data>
   <data name="submitFeedbackToolStripMenuItem.Text" xml:space="preserve">
     <value>Submit feedback...</value>
   </data>
   <data name="toolStripSeparator18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 6</value>
+    <value>238, 6</value>
   </data>
   <data name="resetSettingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
+    <value>241, 26</value>
   </data>
   <data name="resetSettingsToolStripMenuItem.Text" xml:space="preserve">
     <value>Reset settings</value>
   </data>
   <data name="uninstallBCUninstallToolstripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
+    <value>241, 26</value>
   </data>
   <data name="uninstallBCUninstallToolstripMenuItem.Text" xml:space="preserve">
     <value>Uninstall BCUninstaller</value>
   </data>
   <data name="toolStripSeparator17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 6</value>
+    <value>238, 6</value>
   </data>
   <data name="aboutToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2037,19 +2037,19 @@
 </value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
+    <value>241, 26</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;About</value>
   </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
+    <value>55, 24</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Help</value>
   </data>
   <data name="debugToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 20</value>
+    <value>162, 24</value>
   </data>
   <data name="debugToolStripMenuItem.Text" xml:space="preserve">
     <value>Open &amp;debug window</value>
@@ -2058,10 +2058,10 @@
     <value>2, 0</value>
   </data>
   <data name="menuStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 2, 0, 2</value>
+    <value>0, 3, 0, 3</value>
   </data>
   <data name="menuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1029, 24</value>
+    <value>1176, 30</value>
   </data>
   <data name="menuStrip.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2079,7 +2079,7 @@
     <value>3</value>
   </data>
   <metadata name="createBackupFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>676, 17</value>
+    <value>802, 17</value>
   </metadata>
   <data name="createBackupFileDialog.Filter" xml:space="preserve">
     <value>Registry files|*.reg</value>
@@ -2088,22 +2088,22 @@
     <value>Create registry backup</value>
   </data>
   <metadata name="globalHotkeys1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>854, 17</value>
+    <value>1017, 17</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
+    <value>8, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1031, 624</value>
+    <value>1178, 832</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>522, 340</value>
+    <value>594, 438</value>
   </data>
   <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 0, 0</value>
@@ -2229,7 +2229,7 @@
     <value>toolStripSeparator22</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator22.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripButtonSelAll.Name" xml:space="preserve">
     <value>toolStripButtonSelAll</value>
@@ -2253,19 +2253,19 @@
     <value>toolStripSeparator23</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator23.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripButtonNuke.Name" xml:space="preserve">
-    <value>toolStripButtonNuke</value>
+  <data name="&gt;&gt;toolStripButtonTarget.Name" xml:space="preserve">
+    <value>toolStripButtonTarget</value>
   </data>
-  <data name="&gt;&gt;toolStripButtonNuke.Type" xml:space="preserve">
+  <data name="&gt;&gt;toolStripButtonTarget.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator21.Name" xml:space="preserve">
     <value>toolStripSeparator21</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator21.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripButtonUninstall.Name" xml:space="preserve">
     <value>toolStripButtonUninstall</value>
@@ -2289,7 +2289,7 @@
     <value>toolStripSeparator4</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator4.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripButtonProperties.Name" xml:space="preserve">
     <value>toolStripButtonProperties</value>
@@ -2301,7 +2301,7 @@
     <value>toolStripSeparator24</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator24.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripButton7.Name" xml:space="preserve">
     <value>toolStripButton7</value>
@@ -2379,7 +2379,7 @@
     <value>toolStripSeparator3</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;excludeToolStripMenuItem.Name" xml:space="preserve">
     <value>excludeToolStripMenuItem</value>
@@ -2397,7 +2397,7 @@
     <value>toolStripSeparatorFiltering</value>
   </data>
   <data name="&gt;&gt;toolStripSeparatorFiltering.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;runToolStripMenuItem.Name" xml:space="preserve">
     <value>runToolStripMenuItem</value>
@@ -2409,7 +2409,7 @@
     <value>toolStripSeparator8</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator8.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;copyToClipboardContextMenuStripItem.Name" xml:space="preserve">
     <value>copyToClipboardContextMenuStripItem</value>
@@ -2427,7 +2427,7 @@
     <value>toolStripSeparator9</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator9.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;fullInformationCopyContextMenuStripItem.Name" xml:space="preserve">
     <value>fullInformationCopyContextMenuStripItem</value>
@@ -2475,7 +2475,7 @@
     <value>toolStripSeparator6</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator6.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;openInExplorerContextMenuStripItem.Name" xml:space="preserve">
     <value>openInExplorerContextMenuStripItem</value>
@@ -2535,7 +2535,7 @@
     <value>toolStripSeparator26</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator26.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;fossHubcomToolStripMenuItem.Name" xml:space="preserve">
     <value>fossHubcomToolStripMenuItem</value>
@@ -2571,7 +2571,7 @@
     <value>toolStripSeparator7</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator7.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;propertiesContextMenuStripItem.Name" xml:space="preserve">
     <value>propertiesContextMenuStripItem</value>
@@ -2601,7 +2601,7 @@
     <value>toolStripSeparator1</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;loadUninstallerListToolStripMenuItem.Name" xml:space="preserve">
     <value>loadUninstallerListToolStripMenuItem</value>
@@ -2613,7 +2613,7 @@
     <value>toolStripSeparator30</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator30.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;exportSelectedToolStripMenuItem.Name" xml:space="preserve">
     <value>exportSelectedToolStripMenuItem</value>
@@ -2637,7 +2637,7 @@
     <value>toolStripSeparator10</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator10.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;exitToolStripMenuItem.Name" xml:space="preserve">
     <value>exitToolStripMenuItem</value>
@@ -2685,7 +2685,7 @@
     <value>toolStripSeparator12</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator12.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;useSystemThemeToolStripMenuItem.Name" xml:space="preserve">
     <value>useSystemThemeToolStripMenuItem</value>
@@ -2727,7 +2727,7 @@
     <value>toolStripSeparator20</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator20.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;automaticallyStartedToolStripMenuItem.Name" xml:space="preserve">
     <value>automaticallyStartedToolStripMenuItem</value>
@@ -2745,7 +2745,7 @@
     <value>toolStripSeparator31</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator31.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;viewTweaksToolStripMenuItem.Name" xml:space="preserve">
     <value>viewTweaksToolStripMenuItem</value>
@@ -2781,7 +2781,7 @@
     <value>toolStripSeparator28</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator28.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;searchToolStripMenuItem.Name" xml:space="preserve">
     <value>searchToolStripMenuItem</value>
@@ -2817,7 +2817,7 @@
     <value>toolStripSeparator2</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripMenuItem8.Name" xml:space="preserve">
     <value>toolStripMenuItem8</value>
@@ -2835,7 +2835,7 @@
     <value>toolStripSeparator11</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator11.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;copyFullInformationToolStripMenuItem.Name" xml:space="preserve">
     <value>copyFullInformationToolStripMenuItem</value>
@@ -2925,7 +2925,7 @@
     <value>toolStripSeparator27</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator27.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripMenuItem17.Name" xml:space="preserve">
     <value>toolStripMenuItem17</value>
@@ -2961,7 +2961,7 @@
     <value>toolStripSeparator15</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator15.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;propertiesToolStripMenuItem.Name" xml:space="preserve">
     <value>propertiesToolStripMenuItem</value>
@@ -3009,7 +3009,7 @@
     <value>toolStripSeparator14</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator14.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;renameToolStripMenuItem.Name" xml:space="preserve">
     <value>renameToolStripMenuItem</value>
@@ -3033,7 +3033,7 @@
     <value>toolStripSeparator5</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;createBackupToolStripMenuItem.Name" xml:space="preserve">
     <value>createBackupToolStripMenuItem</value>
@@ -3051,7 +3051,7 @@
     <value>toolStripSeparator32</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator32.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;takeOwnershipToolStripMenuItem.Name" xml:space="preserve">
     <value>takeOwnershipToolStripMenuItem</value>
@@ -3075,7 +3075,7 @@
     <value>toolStripSeparator25</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator25.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cleanUpProgramFilesToolStripMenuItem.Name" xml:space="preserve">
     <value>cleanUpProgramFilesToolStripMenuItem</value>
@@ -3083,10 +3083,10 @@
   <data name="&gt;&gt;cleanUpProgramFilesToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;nukeMenuItem.Name" xml:space="preserve">
-    <value>nukeMenuItem</value>
+  <data name="&gt;&gt;targetMenuItem.Name" xml:space="preserve">
+    <value>targetMenuItem</value>
   </data>
-  <data name="&gt;&gt;nukeMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;targetMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;uninstallFromDirectoryToolStripMenuItem.Name" xml:space="preserve">
@@ -3099,7 +3099,7 @@
     <value>toolStripSeparator13</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator13.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;troubleshootUninstallProblemsToolStripMenuItem.Name" xml:space="preserve">
     <value>troubleshootUninstallProblemsToolStripMenuItem</value>
@@ -3129,7 +3129,7 @@
     <value>toolStripSeparator29</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator29.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;openProgramsAndFeaturesToolStripMenuItem.Name" xml:space="preserve">
     <value>openProgramsAndFeaturesToolStripMenuItem</value>
@@ -3147,7 +3147,7 @@
     <value>toolStripSeparator19</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator19.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;settingsToolStripMenuItem.Name" xml:space="preserve">
     <value>settingsToolStripMenuItem</value>
@@ -3177,7 +3177,7 @@
     <value>toolStripSeparator16</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator16.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;checkForUpdatesToolStripMenuItem.Name" xml:space="preserve">
     <value>checkForUpdatesToolStripMenuItem</value>
@@ -3195,7 +3195,7 @@
     <value>toolStripSeparator18</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator18.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;resetSettingsToolStripMenuItem.Name" xml:space="preserve">
     <value>resetSettingsToolStripMenuItem</value>
@@ -3213,7 +3213,7 @@
     <value>toolStripSeparator17</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator17.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.ColorableToolStripSeparator, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.ColorableToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
     <value>aboutToolStripMenuItem</value>
@@ -3258,99 +3258,9 @@
     <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <metadata name="splashScreen1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>990, 17</value>
+    <value>1175, 17</value>
   </metadata>
-  <data name="splashScreen1.SplashScreenImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-        54MP/gFCzVVDTG09cgAAAABJRU5ErkJggg==
-</value>
-  </data>
   <metadata name="usageTracker.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 56</value>
+    <value>17, 60</value>
   </metadata>
 </root>

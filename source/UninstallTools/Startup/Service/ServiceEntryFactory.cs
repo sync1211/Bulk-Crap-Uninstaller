@@ -5,11 +5,11 @@
 
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Management;
 using System.Runtime.InteropServices;
 using System.Security;
-using Klocman.Extensions;
 using Klocman.Native;
 using Klocman.Tools;
 
@@ -63,10 +63,9 @@ namespace UninstallTools.Startup.Service
                     results.Add(e);
                 }
             }
-            catch (Exception ex) when (ex is TypeInitializationException || ex is ManagementException || ex is ExternalException)
+            catch (Exception ex) when (ex is TypeInitializationException || ex is ManagementException || ex is ExternalException || ex is PlatformNotSupportedException)
             {
-                Console.Write(@"Error while gathering services - ");
-                Console.WriteLine(ex);
+                Trace.WriteLine(@"Error while gathering services - " + ex);
             }
 
             return results.ToArray();

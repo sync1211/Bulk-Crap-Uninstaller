@@ -5,11 +5,9 @@
 
 using System;
 using System.Drawing;
-using System.IO;
 using System.Windows.Forms;
 using BulkCrapUninstaller.Functions;
 using BulkCrapUninstaller.Properties;
-using Klocman.Forms.Tools;
 
 namespace BulkCrapUninstaller.Forms
 {

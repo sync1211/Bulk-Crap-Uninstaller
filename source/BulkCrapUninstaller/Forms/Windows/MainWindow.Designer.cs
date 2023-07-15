@@ -54,7 +54,7 @@ namespace BulkCrapUninstaller.Forms
             this.toolStripButtonSelNone = new System.Windows.Forms.ToolStripButton();
             this.toolStripButtonSelInv = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator23 = new BulkCrapUninstaller.Forms.MainWindow.ColorableToolStripSeparator();
-            this.toolStripButtonNuke = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButtonTarget = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator21 = new BulkCrapUninstaller.Forms.MainWindow.ColorableToolStripSeparator();
             this.toolStripButtonUninstall = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
@@ -201,7 +201,7 @@ namespace BulkCrapUninstaller.Forms
             this.openStartupManagerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator25 = new BulkCrapUninstaller.Forms.MainWindow.ColorableToolStripSeparator();
             this.cleanUpProgramFilesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.nukeMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.targetMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.uninstallFromDirectoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator13 = new BulkCrapUninstaller.Forms.MainWindow.ColorableToolStripSeparator();
             this.troubleshootUninstallProblemsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -464,7 +464,7 @@ namespace BulkCrapUninstaller.Forms
             this.toolStripButtonSelNone,
             this.toolStripButtonSelInv,
             this.toolStripSeparator23,
-            this.toolStripButtonNuke,
+            this.toolStripButtonTarget,
             this.toolStripSeparator21,
             this.toolStripButtonUninstall,
             this.toolStripButton2,
@@ -512,13 +512,13 @@ namespace BulkCrapUninstaller.Forms
             this.toolStripSeparator23.Name = "toolStripSeparator23";
             resources.ApplyResources(this.toolStripSeparator23, "toolStripSeparator23");
             // 
-            // toolStripButtonNuke
+            // toolStripButtonTarget
             // 
-            this.toolStripButtonNuke.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButtonNuke.Image = global::BulkCrapUninstaller.Properties.Resources.radioactive;
-            resources.ApplyResources(this.toolStripButtonNuke, "toolStripButtonNuke");
-            this.toolStripButtonNuke.Name = "toolStripButtonNuke";
-            this.toolStripButtonNuke.Click += new System.EventHandler(this.OpenNukeWindow);
+            this.toolStripButtonTarget.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButtonTarget.Image = global::BulkCrapUninstaller.Properties.Resources.target;
+            resources.ApplyResources(this.toolStripButtonTarget, "toolStripButtonTarget");
+            this.toolStripButtonTarget.Name = "toolStripButtonTarget";
+            this.toolStripButtonTarget.Click += new System.EventHandler(this.OpenTargetWindow);
             // 
             // toolStripSeparator21
             // 
@@ -580,6 +580,7 @@ namespace BulkCrapUninstaller.Forms
             // 
             // statusStrip1
             // 
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripLabelStatus,
             this.toolStripLabelSize,
@@ -666,6 +667,7 @@ namespace BulkCrapUninstaller.Forms
             // 
             // uninstallListContextMenuStrip
             // 
+            this.uninstallListContextMenuStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.uninstallListContextMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.uninstallContextMenuStripItem,
             this.quietUninstallContextMenuStripItem,
@@ -963,6 +965,7 @@ namespace BulkCrapUninstaller.Forms
             // 
             // menuStrip
             // 
+            this.menuStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.viewToolStripMenuItem,
@@ -1527,7 +1530,7 @@ namespace BulkCrapUninstaller.Forms
             this.openStartupManagerToolStripMenuItem,
             this.toolStripSeparator25,
             this.cleanUpProgramFilesToolStripMenuItem,
-            this.nukeMenuItem,
+            this.targetMenuItem,
             this.uninstallFromDirectoryToolStripMenuItem,
             this.toolStripSeparator13,
             this.troubleshootUninstallProblemsToolStripMenuItem,
@@ -1560,12 +1563,12 @@ namespace BulkCrapUninstaller.Forms
             this.cleanUpProgramFilesToolStripMenuItem.Name = "cleanUpProgramFilesToolStripMenuItem";
             this.cleanUpProgramFilesToolStripMenuItem.Click += new System.EventHandler(this.cleanUpProgramFilesToolStripMenuItem_Click);
             // 
-            // nukeMenuItem
+            // targetMenuItem
             // 
-            this.nukeMenuItem.Image = global::BulkCrapUninstaller.Properties.Resources.radioactive;
-            resources.ApplyResources(this.nukeMenuItem, "nukeMenuItem");
-            this.nukeMenuItem.Name = "nukeMenuItem";
-            this.nukeMenuItem.Click += new System.EventHandler(this.OpenNukeWindow);
+            this.targetMenuItem.Image = global::BulkCrapUninstaller.Properties.Resources.target;
+            resources.ApplyResources(this.targetMenuItem, "targetMenuItem");
+            this.targetMenuItem.Name = "targetMenuItem";
+            this.targetMenuItem.Click += new System.EventHandler(this.OpenTargetWindow);
             // 
             // uninstallFromDirectoryToolStripMenuItem
             // 
@@ -1918,7 +1921,7 @@ namespace BulkCrapUninstaller.Forms
         internal OLVColumn olvColumnRating;
         private ToolStripMenuItem rateToolStripMenuItem;
         private ToolStripMenuItem rateToolStripMenuItem1;
-        private ToolStripButton toolStripButtonNuke;
+        private ToolStripButton toolStripButtonTarget;
         private ColorableToolStripSeparator toolStripSeparator23;
         private ToolStripMenuItem viewWindowsStoreAppsToolStripMenuItem;
         internal UninstallTools.Controls.FilterEditor filterEditor1;
@@ -1939,7 +1942,7 @@ namespace BulkCrapUninstaller.Forms
         private ColorableToolStripSeparator toolStripSeparator3;
         private ToolStripMenuItem runToolStripMenuItem;
         private ToolStripMenuItem viewUpdatesToolStripMenuItem;
-        private ToolStripMenuItem nukeMenuItem;
+        private ToolStripMenuItem targetMenuItem;
         private ColorableToolStripSeparator toolStripSeparator25;
         private ColorableToolStripSeparator toolStripSeparator26;
         private ToolStripMenuItem fossHubcomToolStripMenuItem;

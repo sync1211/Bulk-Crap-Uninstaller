@@ -254,10 +254,10 @@ namespace BulkCrapUninstaller.Forms
             // 
             // tabPage5
             // 
+            resources.ApplyResources(this.tabPage5, "tabPage5");
             this.tabPage5.Controls.Add(this.tableLayoutPanel1);
             this.tabPage5.Controls.Add(this.button2);
             this.tabPage5.Controls.Add(this.flowLayoutPanel2);
-            resources.ApplyResources(this.tabPage5, "tabPage5");
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
@@ -379,10 +379,7 @@ namespace BulkCrapUninstaller.Forms
             this.CancelButton = this.buttonExit;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelNavigation);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.MaximizeBox = false;
             this.Name = "BeginUninstallTaskWizard";
-            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.BeginUninstallTaskWizard_FormClosed);
             this.Load += new System.EventHandler(this.BeginUninstallTaskWizard_Load);
             this.panelNavigation.ResumeLayout(false);

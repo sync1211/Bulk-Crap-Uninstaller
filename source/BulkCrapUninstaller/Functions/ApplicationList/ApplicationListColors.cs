@@ -10,7 +10,7 @@ namespace BulkCrapUninstaller.Functions.ApplicationList
     internal class ApplicationListColors
     {   
         //Light
-        public static ApplicationListColors NormalLight = new ApplicationListColors(
+        public static ApplicationListColors NormalLight = new(
             Color.FromArgb(unchecked((int) 0xffccffcc)),
             Color.FromArgb(unchecked((int) 0xffbbddff)),
             Color.FromArgb(unchecked((int) 0xffE0E0E0)),
@@ -38,13 +38,18 @@ namespace BulkCrapUninstaller.Functions.ApplicationList
             Color.FromArgb(unchecked((int) 0xff6A00FF))
         );
 
+        public static ApplicationListColors ColorBlind = new ApplicationListColors(
+            Color.FromArgb(unchecked((int) 0xfff6382d)), Color.FromArgb(unchecked((int)0xfffc8d59)),
+            Color.FromArgb(unchecked((int) 0xff5189d3)), Color.FromArgb(unchecked((int)0xff91bfdb)),
+            Color.FromArgb(unchecked((int)0xfffee090)), Color.FromArgb(unchecked((int) 0xffc9dade)));
+
         public static ApplicationListColors ColorBlindDark = new ApplicationListColors(
-            Color.FromArgb(unchecked((int) 0xfff6382d)),
-            Color.FromArgb(unchecked((int) 0xfffc8d59)),
-            Color.FromArgb(unchecked((int) 0xff5189d3)),
-            Color.FromArgb(unchecked((int) 0xff91bfdb)),
-            Color.FromArgb(unchecked((int) 0xfffee090)),
-            Color.FromArgb(unchecked((int) 0xffc9dade))
+            Color.FromArgb(unchecked((int)0xfff6382d)),
+            Color.FromArgb(unchecked((int)0xfffc8d59)),
+            Color.FromArgb(unchecked((int)0xff5189d3)),
+            Color.FromArgb(unchecked((int)0xff91bfdb)),
+            Color.FromArgb(unchecked((int)0xfffee090)),
+            Color.FromArgb(unchecked((int)0xffc9dade))
         );
 
         public ApplicationListColors(Color verifiedColor, Color unverifiedColor, Color invalidColor,
