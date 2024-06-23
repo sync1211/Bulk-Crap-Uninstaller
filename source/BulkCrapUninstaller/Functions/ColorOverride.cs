@@ -5,7 +5,6 @@ using System.Windows.Forms;
 
 namespace BulkCrapUninstaller.Functions
 {
-
     internal static class ColorOverride
     {
         public static Color ForeColor = Color.White;
@@ -29,6 +28,21 @@ namespace BulkCrapUninstaller.Functions
             }
 
             //this.Refresh();
+        }
+
+        private static Bitmap InvertImageColors(Image origImage)
+        {
+            Bitmap bitmap = new Bitmap(origImage);
+            for (int x = 0; x < bitmap.Width; x++)
+            {
+                for (int y = 0; y < bitmap.Height; y++)
+                {
+                    Color orig = bitmap.GetPixel(y, x);
+                    Color inv = Color.FromArgb(orig.A, 255 - orig.R, 255 - orig.G, 255 - orig.B);
+                    bitmap.SetPixel(y, x, inv);
+                }
+            }
+            return bitmap;
         }
 
         public static void OverrideControlColors(Object item, bool strict = false)
@@ -61,23 +75,57 @@ namespace BulkCrapUninstaller.Functions
             if (item is Button button && !(strict && button.BackColor != SystemColors.Control))
             {
                 button.Paint += PaintButton;
+
+                if (button.Image is Image buttonImage)
+                {
+                    button.Image = InvertImageColors(buttonImage);
+                }
             }
 
+            // ToolStripItem
+            if (item is ToolStripItem toolStripItem)
+            {
+                toolStripItem.ForeColor = ForeColor;
+                toolStripItem.BackColor = BackColor;
+
+                if (toolStripItem.Image is Image itemImage)
+                {
+                    toolStripItem.Image = InvertImageColors(itemImage);
+                }
+            }
+
+            // ToolStrip
+            if (item is ToolStrip toolStrip)
+            {
+                foreach (ToolStripItem tsItem in toolStrip.Items)
+                {
+                    OverrideControlColors(tsItem, strict);
+                }
+                return;
+            }
+
+            // ToolStripDropDownItem
+            if (item is ToolStripDropDownItem toolStripDropDownItem)
+            {
+                toolStripDropDownItem.ForeColor = ForeColor;
+                toolStripDropDownItem.BackColor = BackColor;
+            }
+
+            // ToolStripMenuItem
+            if (item is ToolStripMenuItem toolStripMenuItem)
+            {
+                foreach (ToolStripItem dropDownItem in toolStripMenuItem.DropDownItems)
+                {
+                    OverrideControlColors(dropDownItem, strict);
+                }
+            }
+
+            // ContextMenuStrip
             if (item is ContextMenuStrip contextMenuStrip)
             {
-                foreach (ToolStripItem toolStripMenu in contextMenuStrip.Items)
+                foreach (ToolStripItem contextMenuStripItem in contextMenuStrip.Items)
                 {
-                    toolStripMenu.ForeColor = ForeColor;
-                    toolStripMenu.BackColor = BackColor;
-
-                    if (toolStripMenu is ToolStripMenuItem menuItem)
-                    {
-                        foreach (ToolStripItem dropDownItem in menuItem.DropDownItems)
-                        {
-                            dropDownItem.ForeColor = ForeColor;
-                            dropDownItem.BackColor = BackColor;
-                        }
-                    }
+                    OverrideControlColors(contextMenuStripItem, strict);
                 }
             }
 
@@ -86,17 +134,7 @@ namespace BulkCrapUninstaller.Functions
             {
                 foreach (ToolStripItem toolStripMenu in menuStrip.Items)
                 {
-                    toolStripMenu.ForeColor = ForeColor;
-                    toolStripMenu.BackColor = BackColor;
-
-                    if (toolStripMenu is ToolStripMenuItem menuItem)
-                    {
-                        foreach (ToolStripItem dropDownItem in menuItem.DropDownItems)
-                        {
-                            dropDownItem.ForeColor = ForeColor;
-                            dropDownItem.BackColor = BackColor;
-                        }
-                    }
+                    OverrideControlColors(toolStripMenu, strict);
                 }
             }
 
@@ -136,7 +174,6 @@ namespace BulkCrapUninstaller.Functions
                 }
                 objectListView.HeaderUsesThemes = false;
             }
-
         }
 
         // Functions for overriding the rendering methods of controls
