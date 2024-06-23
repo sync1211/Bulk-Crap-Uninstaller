@@ -1,17 +1,18 @@
-﻿using System;
+﻿using BulkCrapUninstaller.Forms;
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 
 namespace BulkCrapUninstaller.Functions
 {
 
-    internal class ColorOverride
+    internal static class ColorOverride
     {
         public static Color ForeColor = Color.White;
         public static Color ForeColorDisabled = Color.Gray;
         public static Color BackColor = Color.FromArgb(12, 13, 14);
-        public static Color BackColorHover = Color.FromArgb(unchecked((int) 0xff07090d));
-        public static Color BackColorActive = Color.FromArgb(unchecked((int) 0xff07090d));
+        public static Color BackColorHover = Color.FromArgb(unchecked((int)0xff07090d));
+        public static Color BackColorActive = Color.FromArgb(unchecked((int)0xff07090d));
 
         public static void OverrideColors(Form form)
         {
@@ -19,39 +20,47 @@ namespace BulkCrapUninstaller.Functions
             form.ForeColor = ForeColor;
             form.BackColor = BackColor;
 
+            bool isStrict = form is ListLegendWindow;
+
             //Apply Color to all Elements
             foreach (Control control in form.Controls)
             {
-                OverrideControlColors(control);
+                OverrideControlColors(control, isStrict);
             }
 
             //this.Refresh();
         }
 
-        public static void OverrideControlColors(Object item)
+        public static void OverrideControlColors(Object item, bool strict = false)
         {
-            //Any Control
+
+            // Any Control
             if (item is Control controlItem)
             {
-                controlItem.BackColor = BackColor;
-                controlItem.ForeColor = ForeColor;
+                // Strict mode; Only override if the control's color is the default
+                if (!strict || controlItem.BackColor == SystemColors.Control)
+                {
+                    controlItem.BackColor = BackColor;
+                    controlItem.ForeColor = ForeColor;
+                }
+
                 foreach (Control control in controlItem.Controls)
                 {
-                    OverrideControlColors(control);
+                    OverrideControlColors(control, strict);
                 }
             }
-                
-            //Label
-            if (item is Label label)
+
+            // Label
+            if (item is Label label && !(strict && label.BackColor != SystemColors.Control))
             {
                 label.ForeColor = ForeColor;
                 label.BackColor = Color.Transparent;
             }
-                
-            //Button
-            if (item is Button button)
+
+            // Button
+            if (item is Button button && !(strict && button.BackColor != SystemColors.Control))
             {
-                button.Paint += new PaintEventHandler(PaintButton);
+                button.Paint += PaintButton;
             }
 
             if (item is ContextMenuStrip contextMenuStrip)
@@ -72,8 +81,9 @@ namespace BulkCrapUninstaller.Functions
                 }
             }
 
-            //MenuStrip
-            if (item is MenuStrip menuStrip) { 
+            // MenuStrip
+            if (item is MenuStrip menuStrip)
+            {
                 foreach (ToolStripItem toolStripMenu in menuStrip.Items)
                 {
                     toolStripMenu.ForeColor = ForeColor;
@@ -90,7 +100,7 @@ namespace BulkCrapUninstaller.Functions
                 }
             }
 
-            //DataGridView
+            // DataGridView
             if (item is DataGridView dataGridView)
             {
                 dataGridView.DefaultCellStyle.ForeColor = ForeColor;
@@ -101,7 +111,7 @@ namespace BulkCrapUninstaller.Functions
                 dataGridView.ColumnHeadersDefaultCellStyle.BackColor = BackColor;
             }
 
-            //ObjectListView
+            // ObjectListView
             if (item is BrightIdeasSoftware.ObjectListView objectListView)
             {
                 if (objectListView.HeaderFormatStyle != null)
@@ -110,16 +120,17 @@ namespace BulkCrapUninstaller.Functions
                     objectListView.HeaderFormatStyle.Normal.BackColor = BackColor;
                     objectListView.HeaderFormatStyle.Hot.BackColor = BackColorHover;
                     objectListView.HeaderFormatStyle.Pressed.BackColor = BackColorActive;
-                } else
+                }
+                else
                 {
                     BrightIdeasSoftware.HeaderFormatStyle headerStyle = new BrightIdeasSoftware.HeaderFormatStyle();
 
                     headerStyle.SetForeColor(ForeColor);
                     headerStyle.Normal.BackColor = BackColor;
-                    
+
                     //TODO: These colors do not show up
-                    //headerStyle.Hot.BackColor = BackColorHover;
-                    //headerStyle.Pressed.BackColor = BackColorActive;
+                    // headerStyle.Hot.BackColor = BackColorHover;
+                    // headerStyle.Pressed.BackColor = BackColorActive;
 
                     objectListView.HeaderFormatStyle = headerStyle;
                 }
@@ -128,7 +139,7 @@ namespace BulkCrapUninstaller.Functions
 
         }
 
-        //Functions for overriding the rendering methods of controls
+        // Functions for overriding the rendering methods of controls
         private static void PaintButton(object sender, System.Windows.Forms.PaintEventArgs e)
         {
             if (sender is Button btn)
@@ -159,7 +170,7 @@ namespace BulkCrapUninstaller.Functions
                 }
 
                 StringAlignment lineAlign;
-                switch(Math.Floor(Math.Log((int) btn.TextAlign, 16)))
+                switch (Math.Floor(Math.Log((int)btn.TextAlign, 16)))
                 {
                     case 0:
                         lineAlign = StringAlignment.Near;
@@ -182,13 +193,13 @@ namespace BulkCrapUninstaller.Functions
                     Alignment = textAlign,
                     LineAlignment = lineAlign
                 };
-                
+
                 e.Graphics.DrawString(btn.Text, btn.Font, drawBrush, btn.DisplayRectangle, sf);
                 drawBrush.Dispose();
                 sf.Dispose();
             }
         }
-   
+
         public static void TabControl_DrawItem(object sender, DrawItemEventArgs e)
         {
             if (sender is TabControl tabCtrl)
